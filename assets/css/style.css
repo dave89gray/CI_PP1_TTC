@@ -9,7 +9,7 @@
 body {
     font-family: montserrat, sans-serif;
     font-weight: 300;
-    color: #69686e;
+    color: #2b2c2c;
 }
 
 /* Heading and logo styling */
@@ -18,7 +18,7 @@ h1, h2 {
     font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #363641;
+    color: #1b1c1c;
 }
 
 #logo {
@@ -52,11 +52,44 @@ h1, h2 {
 }
 
 #nav-menu a:hover {
-    border-bottom: 1px solid #69686e;
+    border-bottom: 1px solid #2b2c2c;
 }
 
 .current {
-    border-bottom: #69686e;
+    border-bottom: #2b2c2c;
 }
 
+/* renewables image*/
+
+#welcome-area {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#summary, #summary h2 {
+    color: #2b2c2c;
+}
+
+#renewable-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/renewable-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#summary {
+    font-size: 100%;
+    font-family: roboto, sans-serif;
+    text-transform: none;
+    width: 400px;
+    height: 300px;
+    padding-top: 10px;
+    padding-right: 25px;
+    background-color: rgba(228, 241, 254, 0.5);
+    top: 50px;
+    right: 25px;
+    position: absolute;
+}
 
