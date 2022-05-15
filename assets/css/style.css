@@ -92,3 +92,26 @@ h1, h2, h3 {
     position: absolute;
 }
 
+/* Work Flow section */
+
+#work-flow div {
+    height: 600px;
+}
+#left-work-flow {
+    float: left;
+    width: 33%;
+    padding-top: 20px;
+    background-color: red;
+}
+
+#right-work-flow {
+    float: right;
+    width: 33%;
+    padding-top: 20px;
+}
+
+#center-work-flow {
+    width: 33;
+    margin: 0 auto;
+    padding-top: 20px;
+}
