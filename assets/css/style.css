@@ -95,23 +95,35 @@ h1, h2, h3 {
 /* Work Flow section */
 
 #work-flow div {
-    height: 600px;
+    height: 300px;
 }
+
 #left-work-flow {
     float: left;
     width: 33%;
-    padding-top: 20px;
-    background-color: red;
+    padding: 25px 20px;
+    line-height: 25px;
 }
 
 #right-work-flow {
     float: right;
     width: 33%;
-    padding-top: 20px;
+    padding: 25px 20px;
+    line-height: 25px;
 }
 
 #center-work-flow {
     width: 33;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 25px 20px;
+    line-height: 25px;
+}
+
+#work-flow h2 {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #1b1c1c;
+    margin: 5px 25px;
 }
