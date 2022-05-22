@@ -56,7 +56,7 @@ h1, h2, h3 {
 }
 
 .current {
-    border-bottom: #2b2c2c;
+    border-bottom: 1px solid #2b2c2c;
 }
 
 /* renewables image*/
@@ -82,7 +82,7 @@ h1, h2, h3 {
 #summary {
     font-size: 100%;
     font-family: roboto, sans-serif;
-    width: 600px;
+    width: 300px;
     height: 150px;
     padding-top: 10px;
     padding-right: 25px;
@@ -95,7 +95,7 @@ h1, h2, h3 {
 /* Work Flow section */
 
 #work-flow div {
-    height: 300px;
+    height: 150px;
 }
 
 #left-work-flow {
@@ -147,4 +147,37 @@ footer i {
     margin: 2%;
     padding: 2%;
     color: #1b1c1c;
+}
+
+/* projects styling */
+
+.project {
+    padding: 10px;
+    height: 450px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-column {
+    float: left;
+    width: 25%;
+}
+
+.project:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.details {
+    padding: 10px;
+}
+
+.details > hr {
+        border-top: 1px solid #1b1c1c;
+        margin: 5px 5px;
+}
+
+.projects h4 {
+    text-align: center;
 }
