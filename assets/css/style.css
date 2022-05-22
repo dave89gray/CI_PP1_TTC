@@ -123,7 +123,32 @@ h1, h2, h3 {
     text-align: center;
 }
 
+#work-flow p {
+    width: 80%;
+}
+
 hr {
     border-top: 1px solid #1b1c1c;
     margin: 5px 25px;
+}
+
+/* footer styling */
+
+footer {
+    height: 150px;
+}
+
+footer > ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 2%;
+    color: #1b1c1c;
 }
