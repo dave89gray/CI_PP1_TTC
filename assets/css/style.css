@@ -81,7 +81,6 @@ h1, h2, h3 {
 
 #summary {
     font-size: 100%;
-    font-family: roboto, sans-serif;
     width: 300px;
     height: 150px;
     padding-top: 10px;
@@ -151,15 +150,37 @@ footer i {
 
 /* add about us styling */
 
-.about-us {
-    height: 600px;
+#about-us {
+    height: 300px;
 }
 
-.about-us > h3 {
+#about-us > h2 {
     text-transform: uppercase;
-    padding-top: 10px;
+    padding-left: 10px;
     text-decoration: underline;
 }
+
+#about-text-left {
+    padding-top: 10px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#about-text-right {
+    padding-top: 10px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#about-text-center {
+    padding-top: 10px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
 
 
 /* projects styling */
