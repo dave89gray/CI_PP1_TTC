@@ -154,34 +154,43 @@ footer i {
     height: 300px;
 }
 
-#about-us > h2 {
+#about-us h2 {
     text-transform: uppercase;
-    padding-left: 10px;
-    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
-#about-text-left {
+#about-us-left {
     padding-top: 10px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
-#about-text-right {
+#about-us-right {
     padding-top: 10px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
-#about-text-center {
+#about-us-center {
     padding-top: 10px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
+.about-text {
+    width: 60%;
+    text-align: left;
+    line-height: 20px;
+    clear: both;
+    margin: 30px;
+}
 
+#about-text-center {
+    width: 80%;
+    text-align: left;
+    line-height: 20px;
+    margin: 30px;
+}
 
 /* projects styling */
 
