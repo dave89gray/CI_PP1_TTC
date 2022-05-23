@@ -192,6 +192,8 @@ footer i {
     margin: 30px;
 }
 
+/* meet the team styling */
+
 #meet-team {
     height: 600px;
     background-color: rgba(236, 236, 236, 0.5);
@@ -262,4 +264,10 @@ footer i {
 
 .projects h4 {
     text-align: center;
+}
+
+/* contact us styling */
+
+#contact-us {
+    width: 600px;
 }
