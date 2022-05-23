@@ -268,13 +268,14 @@ footer i {
     text-align: center;
 }
 
-/* contact us styling */
+/* contact us form styling */
 
 #contact-us {
     width: 600px;
     height: 600px;
     background-color: rgba(236, 236, 236, 0.5);
-    margin: 10px;
+    margin: 20px 50px;
+    float: right;
 }
 
 #form {
@@ -286,17 +287,16 @@ input[type=text], select, textarea {
     width: 100%;
     border: 1px solid #1b1c1c;
     border-radius: 2px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    display: block;
     resize: vertical;
 }
 
 
 #submit {
     width: 150px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     border: 1px solid #1b1c1c;
     background-color: white;
@@ -305,4 +305,23 @@ input[type=text], select, textarea {
 
 #submit:hover {
     background-color: #bfbfbf;
+}
+
+/* contact us google map styling */
+
+#find-us {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    padding-bottom: 55%;
+}
+
+#find-us iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 600px;
+    margin: 20px 50px;
 }
