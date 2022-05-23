@@ -43,7 +43,7 @@ h1, h2, h3 {
 
 #nav-menu ul li {
     display: inline-block;
-    padding: 0 75px;
+    padding: 0 60px;
 }
 
 #nav-menu a {
@@ -330,10 +330,10 @@ input[type=text], select, textarea {
 
 /* Media queries*/
 
-/* For larger to medium screens size 1200px wide and down */
+/* For larger to medium screens size 1024px wide and down */
 @media screen and (max-width: 1024px) {
     #work-flow {
-        width: 75%;
+        width: 65%;
         height: 900px;
         margin: 0 auto;
     }
@@ -343,7 +343,8 @@ input[type=text], select, textarea {
         width: 100%;
         float: left;
         padding: 0%;
-        margin-top: 50px;
+        margin-top: 5px;
+        line-height: 20px;
     }
 
     #centre-work-flow {
@@ -351,5 +352,44 @@ input[type=text], select, textarea {
         width: 100%;
         float: left;
         padding: 0;
+        line-height: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #nav-menu ul li {
+        padding: 0 25px;
     }
 }
+
+/* For larger to tablet screen size 768px wide and down */
+
+@media screen and (max-width: 768px) {
+    #work-flow {
+        width: 65%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
+    #left-work-flow, #right-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    #centre-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        line-height: 15px;
+    }
+
+
+/* For larger to tablet screen size 480px wide and down */
