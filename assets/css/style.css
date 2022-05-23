@@ -192,6 +192,32 @@ footer i {
     margin: 30px;
 }
 
+#meet-team {
+    height: 300px;
+}
+
+#meet-team > h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.about-column {
+    float: left;
+    width: 30%;
+    margin: 5px;
+    padding: 0 8px;
+}
+
+.about-details {
+    box-shadow: 0 4px 8px 0 rgba(236, 236, 236, 0.5);
+    margin: 5px;
+}
+
+.about-column img {
+    height: auto;
+    width: 100%;
+}
+
 /* projects styling */
 
 .project {
