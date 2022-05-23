@@ -193,7 +193,8 @@ footer i {
 }
 
 #meet-team {
-    height: 300px;
+    height: 600px;
+    background-color: rgba(236, 236, 236, 0.5);
 }
 
 #meet-team > h2 {
@@ -208,9 +209,17 @@ footer i {
     padding: 0 8px;
 }
 
-.about-details {
-    box-shadow: 0 4px 8px 0 rgba(236, 236, 236, 0.5);
+.about-team-member {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 5px;
+}
+
+.box {
+    padding: 5px 5px;
+}
+
+.box > p {
+    margin-top: 10px;
 }
 
 .about-column img {
