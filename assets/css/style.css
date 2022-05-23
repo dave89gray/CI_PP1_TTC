@@ -74,7 +74,7 @@ h1, h2, h3 {
 #renewable-image {
     height: 600px;
     width: 100%;
-    background-image: url(../images/renewable-image.jpeg);
+    background-image: url(../images/Renewable\ Energy\ Image.jpeg);
     background-repeat: no-repeat;
     object-fit: contain;
 }
@@ -94,7 +94,7 @@ h1, h2, h3 {
 /* Work Flow section */
 
 #work-flow div {
-    height: 150px;
+    height: 250px;
 }
 
 #left-work-flow {
@@ -326,4 +326,30 @@ input[type=text], select, textarea {
     width: 600px;
     height: 600px;
     margin: 20px 50px;
+}
+
+/* Media queries*/
+
+/* For larger to medium screens size 1200px wide and down */
+@media screen and (max-width: 1024px) {
+    #work-flow {
+        width: 75%;
+        height: 900px;
+        margin: 0 auto;
+    }
+
+    #left-work-flow, #right-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0%;
+        margin-top: 50px;
+    }
+
+    #centre-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 }
