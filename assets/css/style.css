@@ -232,7 +232,6 @@ footer i {
 .project {
     padding: 10px;
     height: 450px;
-    max-width: 1200px;
     margin: auto;
 }
 
@@ -241,7 +240,7 @@ footer i {
     width: 25%;
 }
 
-.project:after {
+.project::after {
     content: "";
     display: table;
     clear: both;
@@ -249,6 +248,11 @@ footer i {
 
 .details {
     padding: 10px;
+}
+
+.details > img {
+    width: 100%;
+    height: auto;
 }
 
 .details > hr {
