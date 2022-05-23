@@ -151,21 +151,14 @@ footer i {
 
 /* add about us styling */
 
-#about-us {
+.about-us {
     height: 600px;
 }
 
-#about-left {
-    float: left;
-    padding: 20px 20px;
-    width: 45%;
-    background-color: orange;
-}
-
-#about-right {
-    float: right;
-    padding: 20px 20px;
-    position: relative;
+.about-us > h3 {
+    text-transform: uppercase;
+    padding-top: 10px;
+    text-decoration: underline;
 }
 
 
