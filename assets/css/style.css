@@ -419,22 +419,17 @@ input[type=text], select, textarea {
         padding: 0 0px;
     }
     
-    .about-team-member {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        margin: 5px;
-    }
-    
     .box {
         padding: 5px 5px;
+        height: 320px;
     }
     
     .box > p {
         margin-top: 10px;
     }
-    
-    .about-column img {
-        height: auto;
-        width: 100%;
+
+    .box p {
+        font-size: 14px;
     }
 
 }
