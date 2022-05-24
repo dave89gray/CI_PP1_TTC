@@ -362,8 +362,13 @@ input[type=text], select, textarea {
         display: none;
     }
 
+    #nav-menu {
+        font-size: 90%;
+        line-height: 30px;
+    }
+
     #nav-menu ul li {
-        padding: 0 25px;
+        padding: 0 20px;
     }
 }
 
