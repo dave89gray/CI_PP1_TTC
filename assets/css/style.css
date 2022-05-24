@@ -6,11 +6,11 @@
     border: none;
 }
 
-body {
-    font-family: montserrat, sans-serif;
-    font-weight: 300;
-    color: #2b2c2c;
-    }
+    body {
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        color: #2b2c2c;
+        }
 
     /* Heading and logo styling */
 
@@ -102,21 +102,21 @@ body {
     #left-work-flow {
         float: left;
         width: 33%;
-        padding: 25px 20px;
+        padding: 20px 20px;
         line-height: 25px;
     }
 
     #right-work-flow {
         float: right;
         width: 33%;
-        padding: 25px 20px;
+        padding: 20px 20px;
         line-height: 25px;
     }
 
     #center-work-flow {
         width: 33;
         margin: 0 auto;
-        padding: 25px 20px;
+        padding: 20px 20px;
         line-height: 25px;
     }
 
@@ -401,6 +401,7 @@ body {
 
         #nav-menu ul li {
             padding: 0 20px;
+            line-height: 30px;
         }
 
         /* For About us page */
@@ -455,7 +456,6 @@ body {
             padding: 10px;
             height: 600px;
             margin: auto;
-            background-color: rgba(236, 236, 236, 0.5);
         }
 
     .details > h4 {
@@ -465,12 +465,12 @@ body {
 
 }
 
-/* For tablet screen size 768px and down */
-
-/* Index page styling */
+    /* For tablet screen size 768px and down */
 
     @media screen and (max-width: 768px) {
 
+        /* Index page styling */
+        
         #nav-menu {
             font-size: 100%;
             line-height: 40px;
@@ -478,6 +478,7 @@ body {
 
         #nav-menu ul li {
             padding: 0 15px;
+            line-height: 30px;
         }
 
         #work-flow {
@@ -603,9 +604,13 @@ body {
         }
 }
 
-/* For mobile devices size 480px and down */
+        
+    /* For mobile devices size 480px and down */
 
-        @media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
+
+    /* Index page styling */
+
         h1, h2, h3 {
             letter-spacing: 1px;
         }
@@ -617,12 +622,13 @@ body {
 
         #nav-menu {
             font-size: 75%;
-            line-height: 25px;
+            line-height: 40px;
             margin: 0;
         }
 
         #nav-menu ul li {
             padding: 0 5px;
+            line-height: 30px;
         }
 
         h2 {
@@ -645,8 +651,55 @@ body {
             line-height: 20px;
         }
 
+        #center-work-flow {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0%;
+            line-height: 20px;
+        }
+
         #summary {
             width: 170px;
         }
 
+        /* About Us page styling */
+
+        #about-us {
+            height: 700px;
+        }
+
+        .about-us {
+            clear: both;
+            width: 90%;
+        }
+
+        #about-us-left, #about-us-right, #about-us-center {
+            width: 90%;
+        }
+
+        #meet-team {
+            height: 1600px;
+        }
+
+        /* Projects page styling */
+
+        .project-column {
+            width: 90%;
+        }
+
+        #contact-us {
+            float: none;
+            max-width: 200px;
+            margin: 0 auto;
+            clear: both;
+        }
+
+        #find-us {
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+            margin: 0;
+            clear: both;
+        }
 }
