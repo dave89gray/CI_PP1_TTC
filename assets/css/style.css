@@ -337,7 +337,7 @@ body {
 
     /* Media query for contact us google maps */
 
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1160px) {
 
             #contact-us {
                 float: none;
@@ -352,7 +352,7 @@ body {
             }
             
             #find-us {
-                width: 55%;
+                width: 60%;
                 margin: 0 auto;
                 clear: both;
             }
@@ -582,6 +582,23 @@ body {
         .details > h4 {
             margin-bottom: 10px;
             font-size: 18px;
+        }
+
+        /* Contact page styling */
+
+        #contact-us {
+            float: none;
+            max-width: 400px;
+            margin: 0 auto;
+            clear: both;
+        }
+
+        #find-us {
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+            margin: 0;
+            clear: both;
         }
 }
 
