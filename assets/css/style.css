@@ -266,7 +266,7 @@ footer i {
         margin: 5px 5px;
 }
 
-.projects h4 {
+.details > h4 {
     text-align: center;
 }
 
@@ -403,13 +403,8 @@ input[type=text], select, textarea {
     /* About Us meet the team styling */
 
     #meet-team {
-        height: 900px;
+        height: 600px;
         background-color: rgba(236, 236, 236, 0.5);
-    }
-    
-    #meet-team > h2 {
-        text-align: center;
-        padding-bottom: 10px;
     }
     
     .about-column {
@@ -423,14 +418,16 @@ input[type=text], select, textarea {
         padding: 5px 5px;
         height: 320px;
     }
-    
-    .box > p {
-        margin-top: 10px;
-    }
 
     .box p {
         font-size: 14px;
     }
+
+    /* Projects styling */
+
+.details > h4 {
+    margin-bottom: 5px;
+}    
 
 }
 
@@ -513,4 +510,4 @@ h2 {
     margin-bottom: 10px;
     line-height: 20px;
 }
-}   
+}
