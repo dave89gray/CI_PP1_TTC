@@ -283,7 +283,7 @@ footer i {
 #contact-us {
     width: 500px;
     height: 600px;
-    margin: 20px 20px;
+    margin: 20px 40px;
     float: right;
 }
 
@@ -328,10 +328,9 @@ input[type=text], select, textarea {
     position: absolute;
     top: 10px;
     left: 10px;
-    bottom: 10px;
     width: 500px;
     height: 500px;  
-    margin: 20px 20px;
+    margin: 20px 40px;
 }
 
 /* Media queries*/
@@ -468,10 +467,24 @@ input[type=text], select, textarea {
 /* For tablet screen size 768px and down */
 
 @media screen and (max-width: 768px) {
+
+    #nav-menu {
+        font-size: 100%;
+        line-height: 40px;
+    }
+
+    #nav-menu ul li {
+        padding: 0 15px;
+    }
+
     #work-flow {
         width: 65%;
         height: 800px;
         margin: 0 auto;
+    }
+
+    #work-flow h2 {
+        margin-bottom: 10px;
     }
 
     #left-work-flow, #right-work-flow {
