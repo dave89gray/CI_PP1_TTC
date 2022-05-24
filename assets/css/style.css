@@ -332,7 +332,12 @@ input[type=text], select, textarea {
 /* Media queries*/
 
 /* For larger to medium screens size 1024px and down */
+
+
 @media screen and (max-width: 1024px) {
+
+    /* For home page */
+
     #work-flow {
         width: 65%;
         height: 800px;
@@ -369,6 +374,29 @@ input[type=text], select, textarea {
 
     #nav-menu ul li {
         padding: 0 20px;
+    }
+
+    /* For About us page */
+
+    #about-us h2 {
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .about-text {
+        width: 80%;
+        text-align: left;
+        line-height: 20px;
+        clear: both;
+        margin: 20px;
+    }
+    
+    #about-text-center {
+        width: 80%;
+        text-align: left;
+        line-height: 20px;
+        margin: 20px;
     }
 
 }
