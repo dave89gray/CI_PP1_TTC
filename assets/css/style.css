@@ -220,6 +220,7 @@ footer i {
 
 .box {
     padding: 5px 5px;
+    height: 250px;
 }
 
 .box > p {
@@ -399,6 +400,43 @@ input[type=text], select, textarea {
         margin: 20px;
     }
 
+    /* About Us meet the team styling */
+
+    #meet-team {
+        height: 900px;
+        background-color: rgba(236, 236, 236, 0.5);
+    }
+    
+    #meet-team > h2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .about-column {
+        float: left;
+        width: 30%;
+        margin: 5px;
+        padding: 0 0px;
+    }
+    
+    .about-team-member {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 5px;
+    }
+    
+    .box {
+        padding: 5px 5px;
+    }
+    
+    .box > p {
+        margin-top: 10px;
+    }
+    
+    .about-column img {
+        height: auto;
+        width: 100%;
+    }
+
 }
 
 /* For tablet screen size 768px and down */
@@ -406,7 +444,7 @@ input[type=text], select, textarea {
 @media screen and (max-width: 768px) {
     #work-flow {
         width: 65%;
-        height: 900px;
+        height: 800px;
         margin: 0 auto;
     }
 
