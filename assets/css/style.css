@@ -210,7 +210,7 @@ footer i {
 .about-column {
     float: left;
     width: 30%;
-    margin: 10px;
+    margin: 10px 5px;
     padding: 0 8px;
 }
 
@@ -533,19 +533,37 @@ input[type=text], select, textarea {
         height: 600px;
     }
 
-    #meet-team {
-        height: 600px;
-    }
-
     .about-us {
         clear: both;
         width: 85%;
         margin: 0 auto;
+        float: none;
     }
 
     #about-us-left, #about-us-right, #about-us-center {
         width: 80%;
-        float: left;
+        margin: 0 auto;
+        float: none;
+    }
+
+    /* Meet the Team page styling */
+
+    #meet-team {
+        height: 2100px;
+    }
+
+    .about-column {
+        clear: both;
+        width: 85%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .about-team-member {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
 }
 
