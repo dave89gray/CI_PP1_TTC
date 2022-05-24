@@ -466,6 +466,8 @@ input[type=text], select, textarea {
 
 /* For tablet screen size 768px and down */
 
+/* Index page styling */
+
 @media screen and (max-width: 768px) {
 
     #nav-menu {
@@ -523,6 +525,27 @@ input[type=text], select, textarea {
 
     #summary > h3 {
         font-size: 10px;
+    }
+
+    /* About us page styling */
+
+    #about-us {
+        height: 600px;
+    }
+
+    #meet-team {
+        height: 600px;
+    }
+
+    .about-us {
+        clear: both;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #about-us-left, #about-us-right, #about-us-center {
+        width: 80%;
+        float: left;
     }
 }
 
