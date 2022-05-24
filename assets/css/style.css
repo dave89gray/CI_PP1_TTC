@@ -331,7 +331,7 @@ input[type=text], select, textarea {
 
 /* Media queries*/
 
-/* For larger to medium screens size 1024px wide and down */
+/* For larger to medium screens size 1024px and down */
 @media screen and (max-width: 1024px) {
     #work-flow {
         width: 65%;
@@ -373,7 +373,7 @@ input[type=text], select, textarea {
 
 }
 
-/* For larger to tablet screen size 768px wide and down */
+/* For tablet screen size 768px and down */
 
 @media screen and (max-width: 768px) {
     #work-flow {
@@ -420,3 +420,36 @@ input[type=text], select, textarea {
         font-size: 10px;
     }
 }
+
+/* For mobile devices size 480px and down */
+
+@media screen and (max-width: 480px) {
+h1, h2, h3 {
+    letter-spacing: 1px;
+}
+
+#logo {
+    font-size: 150%;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#work-flow {
+    width: 65%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+#left-work-flow, #right-work-flow {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+}   
