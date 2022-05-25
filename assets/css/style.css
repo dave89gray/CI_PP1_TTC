@@ -26,6 +26,7 @@
         left: 0;
         font-size: 200%;
         line-height: 75px;
+        background-color: rgba(236, 236, 236, 0.5);
     }
 
     /* Navigation menu links styling */
@@ -34,7 +35,8 @@
         font-size: 150%;
         letter-spacing: 2px;
         line-height: 50px;
-        font-family: roboto, sans-serif
+        font-family: roboto, sans-serif;
+        background-color: rgba(236, 236, 236, 0.5);
     }
 
     #nav-menu ul {
@@ -323,6 +325,7 @@
         overflow: hidden;
         width: 50%;
         padding-bottom: 55%;
+        height: auto;
     }
 
     #find-us iframe {
