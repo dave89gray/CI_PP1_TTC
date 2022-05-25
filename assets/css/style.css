@@ -1,713 +1,727 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-    body {
-        font-family: montserrat, sans-serif;
-        font-weight: 300;
-        color: #2b2c2c;
-        }
+body {
+    font-family: montserrat, sans-serif;
+    font-weight: 300;
+    color: #2b2c2c;
+}
 
-    /* Heading and logo styling */
+/* Heading and logo styling */
 
-    h1, h2, h3 {
-        font-family: roboto, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #1b1c1c;
-    }
+h1,
+h2,
+h3 {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1b1c1c;
+}
 
-    #logo {
-        top: 0;
-        left: 0;
-        font-size: 200%;
-        line-height: 75px;
-        background-color: rgba(236, 236, 236, 0.5);
-    }
+#logo {
+    top: 0;
+    left: 0;
+    font-size: 200%;
+    line-height: 75px;
+    background-color: rgba(236, 236, 236, 0.5);
+}
 
-    /* Navigation menu links styling */
+/* Navigation menu links styling */
 
-    #nav-menu {
-        font-size: 150%;
-        letter-spacing: 2px;
-        line-height: 50px;
-        font-family: roboto, sans-serif;
-        background-color: rgba(236, 236, 236, 0.5);
-    }
+#nav-menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-family: roboto, sans-serif;
+    background-color: rgba(236, 236, 236, 0.5);
+}
 
-    #nav-menu ul {
-        list-style-type: none;
+#nav-menu ul {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav-menu ul li {
+    display: inline-block;
+    padding: 0 60px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid #2b2c2c;
+}
+
+.current {
+    border-bottom: 1px solid #2b2c2c;
+}
+
+/* renewables image*/
+
+#welcome-area {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#summary,
+#summary h2 {
+    color: #2b2c2c;
+}
+
+#renewable-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/renewable_energy_image.jpeg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#summary {
+    font-size: 100%;
+    width: 300px;
+    height: 80px;
+    padding-top: 5px;
+    padding-right: 25px;
+    background-color: rgba(228, 241, 254, 0.5);
+    top: 25px;
+    right: 75px;
+    position: absolute;
+}
+
+/* Work Flow section */
+
+#work-flow {
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+#work-flow div {
+    height: 250px;
+}
+
+#left-work-flow {
+    float: left;
+    width: 33%;
+    padding: 20px 20px;
+    line-height: 25px;
+}
+
+#right-work-flow {
+    float: right;
+    width: 33%;
+    padding: 20px 20px;
+    line-height: 25px;
+}
+
+#center-work-flow {
+    margin: 0 auto;
+    padding: 20px 20px;
+    line-height: 25px;
+}
+
+#work-flow h2 {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #1b1c1c;
+    margin: 5px 25px;
+}
+
+/* footer styling */
+
+footer {
+    height: 150px;
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+footer>ul {
+    text-align: center;
+    clear: both;
+}
+
+footer li {
+    display: inline;
+}
+
+footer i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 2%;
+    color: #1b1c1c;
+}
+
+/* add about us styling */
+
+#about-us {
+    height: 300px;
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+#about-us h2 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#about-us-left {
+    padding-top: 10px;
+    width: 33%;
+    float: left;
+}
+
+#about-us-right {
+    padding-top: 10px;
+    width: 33%;
+    float: right;
+}
+
+#about-us-center {
+    padding-top: 10px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 60%;
+    text-align: left;
+    line-height: 20px;
+    clear: both;
+    margin: 30px;
+}
+
+#about-text-center {
+    width: 80%;
+    text-align: left;
+    line-height: 20px;
+    margin: 30px;
+}
+
+/* meet the team styling */
+
+#meet-team {
+    height: 600px;
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+#meet-team>h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.about-column {
+    float: left;
+    width: 30%;
+    margin: 10px 5px;
+    padding: 0 8px;
+}
+
+.about-team-member {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+}
+
+.box {
+    padding: 5px 5px;
+    height: 250px;
+}
+
+.box>p {
+    margin-top: 10px;
+}
+
+.about-column img {
+    height: auto;
+    width: 100%;
+}
+
+/* projects styling */
+
+.project {
+    padding: 10px;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(236, 236, 236, 0.5);
+}
+
+.project-column {
+    float: left;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    height: 495px;
+}
+
+.project::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.details {
+    padding: 10px;
+}
+
+.details>img {
+    width: 100%;
+    height: auto;
+}
+
+.details>hr {
+    border-top: 1px solid #1b1c1c;
+    margin: 5px 5px;
+}
+
+.details>h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* contact us form styling */
+
+#container {
+    background-color: rgba(236, 236, 236, 0.5);
+    height: 600px;
+}
+
+#contact-us {
+    width: 500px;
+    height: 600px;
+    margin: 20px 40px;
+    float: right;
+}
+
+#form {
+    width: 90%;
+    padding: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    border: 1px solid #1b1c1c;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+#submit {
+    width: 150px;
+    margin-top: 5px;
+    border: 1px solid #1b1c1c;
+    background-color: white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #bfbfbf;
+}
+
+/* contact us google map styling */
+
+#find-us {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    padding-bottom: 55%;
+    height: auto;
+}
+
+#find-us iframe {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 500px;
+    height: 500px;
+    margin: 20px 40px;
+}
+
+/* Media queries*/
+
+/* Media query for contact us google maps */
+
+@media screen and (max-width: 1160px) {
+
+    #contact-us {
+        float: none;
+        max-width: 500px;
         margin: 0 auto;
-        text-align: center;
-    }
-
-    #nav-menu ul li {
-        display: inline-block;
-        padding: 0 60px;
-    }
-
-    #nav-menu a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    #nav-menu a:hover {
-        border-bottom: 1px solid #2b2c2c;
-    }
-
-    .current {
-        border-bottom: 1px solid #2b2c2c;
-    }
-
-    /* renewables image*/
-
-    #welcome-area {
-        height: 600px;
-        width: 100%;
-        position: relative;
-    }
-
-    #summary, #summary h2 {
-        color: #2b2c2c;
-    }
-
-    #renewable-image {
-        height: 600px;
-        width: 100%;
-        background-image: url(../images/Renewable-Energy-Image.jpeg);
-        background-repeat: no-repeat;
-        object-fit: contain;
-    }
-
-    #summary {
-        font-size: 100%;
-        width: 300px;
-        height: 80px;
-        padding-top: 5px;
-        padding-right: 25px;
-        background-color: rgba(228, 241, 254, 0.5);
-        top: 25px;
-        right: 75px;
-        position: absolute;
-    }
-
-    /* Work Flow section */
-
-    #work-flow {
-        background-color: rgba(236, 236, 236, 0.5);
-    }
-
-    #work-flow div {
-        height: 250px;
-    }
-
-    #left-work-flow {
-        float: left;
-        width: 33%;
-        padding: 20px 20px;
-        line-height: 25px;
-    }
-
-    #right-work-flow {
-        float: right;
-        width: 33%;
-        padding: 20px 20px;
-        line-height: 25px;
-    }
-
-    #center-work-flow {
-        margin: 0 auto;
-        padding: 20px 20px;
-        line-height: 25px;
-    }
-
-    #work-flow h2 {
-        text-align: center;
-    }
-
-    hr {
-        border-top: 1px solid #1b1c1c;
-        margin: 5px 25px;
-    }
-
-    /* footer styling */
-
-    footer {
-        height: 150px;
-        background-color: rgba(236, 236, 236, 0.5);
-    }
-
-    footer > ul {
-        text-align: center;
         clear: both;
     }
 
-    footer li {
-        display: inline;
-    }
-
-    footer i {
-        font-size: 200%;
-        margin: 2%;
-        padding: 2%;
-        color: #1b1c1c;
-    }
-
-    /* add about us styling */
-
-    #about-us {
-        height: 300px;
+    #container {
         background-color: rgba(236, 236, 236, 0.5);
+        height: 1200px;
     }
+
+    #find-us {
+        width: 60%;
+        margin: 0 auto;
+        clear: both;
+    }
+}
+
+/* For larger to medium screens size 1024px and down */
+
+@media screen and (max-width: 1024px) {
+
+    /* For home page */
+
+    #work-flow {
+        width: 65%;
+        height: 900px;
+        margin: 0 auto;
+    }
+
+    #left-work-flow,
+    #right-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+    #centre-work-flow {
+        clear: both;
+        width: 100%;
+        padding: 0;
+        line-height: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #nav-menu {
+        font-size: 120%;
+        line-height: 50px;
+    }
+
+    #nav-menu ul li {
+        padding: 0 20px;
+        line-height: 30px;
+    }
+
+    /* For About us page */
 
     #about-us h2 {
         text-transform: uppercase;
         padding-bottom: 10px;
-    }
-
-    #about-us-left {
-        padding-top: 10px;
-        width: 33%;
-        float: left;
-    }
-
-    #about-us-right {
-        padding-top: 10px;
-        width: 33%;
-        float: right;
-    }
-
-    #about-us-center {
-        padding-top: 10px;
-        width: 33%;
-        margin: 0 auto;
+        font-size: 20px;
     }
 
     .about-text {
-        width: 60%;
+        width: 80%;
         text-align: left;
         line-height: 20px;
         clear: both;
-        margin: 30px;
+        margin: 20px;
     }
 
     #about-text-center {
         width: 80%;
         text-align: left;
         line-height: 20px;
-        margin: 30px;
+        margin: 20px;
     }
 
-    /* meet the team styling */
+    /* About Us meet the team styling */
 
     #meet-team {
         height: 600px;
         background-color: rgba(236, 236, 236, 0.5);
     }
 
-    #meet-team > h2 {
-        text-align: center;
-        padding-bottom: 10px;
-    }
-
     .about-column {
         float: left;
         width: 30%;
-        margin: 10px 5px;
-        padding: 0 8px;
-    }
-
-    .about-team-member {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         margin: 5px;
+        padding: 0 0px;
     }
 
     .box {
         padding: 5px 5px;
-        height: 250px;
+        height: 320px;
     }
 
-    .box > p {
-        margin-top: 10px;
+    .box p {
+        font-size: 14px;
     }
 
-    .about-column img {
-        height: auto;
-        width: 100%;
-    }
-
-    /* projects styling */
+    /* Projects styling */
 
     .project {
         padding: 10px;
         height: 600px;
         margin: auto;
-        background-color: rgba(236, 236, 236, 0.5);
     }
 
-    .project-column {
-        float: left;
-        width: 25%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        margin-bottom: 10px;
-        height: 495px;
-    } 
-
-    .project::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .details {
-        padding: 10px;
-    }
-
-    .details > img {
-        width: 100%;
-        height: auto;
-    }
-
-    .details > hr {
-            border-top: 1px solid #1b1c1c;
-            margin: 5px 5px;
-    }
-
-    .details > h4 {
-        text-align: center;
-        font-size: 18px;
-    }
-
-
-    /* contact us form styling */
-
-    #container {
-        background-color: rgba(236, 236, 236, 0.5);
-        height: 600px;
-    }
-
-    #contact-us {
-        width: 500px;
-        height: 600px;
-        margin: 20px 40px;
-        float: right;
-    }
-
-    #form {
-        width: 90%;
-        padding: 20px;
-    }
-
-    input[type=text], select, textarea {
-        width: 100%;
-        border: 1px solid #1b1c1c;
-        border-radius: 2px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        box-sizing: border-box;
-        resize: vertical;
-    }
-
-
-    #submit {
-        width: 150px;
-        margin-top: 5px;
-        border: 1px solid #1b1c1c;
-        background-color: white;
-        cursor: pointer;
-    }
-
-    #submit:hover {
-        background-color: #bfbfbf;
-    }
-
-    /* contact us google map styling */
-
-    #find-us {
-        position: relative;
-        overflow: hidden;
-        width: 50%;
-        padding-bottom: 55%;
-        height: auto;
-    }
-
-    #find-us iframe {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        width: 500px;
-        height: 500px;  
-        margin: 20px 40px;
-    }
-
-    /* Media queries*/
-
-    /* Media query for contact us google maps */
-
-    @media screen and (max-width: 1160px) {
-
-            #contact-us {
-                float: none;
-                max-width: 500px;
-                margin: 0 auto;
-                clear: both;
-            }
-            
-            #container {
-                background-color: rgba(236, 236, 236, 0.5);
-                height: 1200px;
-            }
-            
-            #find-us {
-                width: 60%;
-                margin: 0 auto;
-                clear: both;
-            }
-    }
-
-    /* For larger to medium screens size 1024px and down */
-
-    @media screen and (max-width: 1024px) {
-
-        /* For home page */
-
-        #work-flow {
-            width: 65%;
-            height: 900px;
-            margin: 0 auto;
-        }
-
-        #left-work-flow, #right-work-flow {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0%;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            line-height: 20px;
-        }
-
-        #centre-work-flow {
-            clear: both;
-            width: 100%;
-            padding: 0;
-            line-height: 20px;
-        }
-
-        hr {
-            display: none;
-        }
-
-        #nav-menu {
-            font-size: 120%;
-            line-height: 50px;
-        }
-
-        #nav-menu ul li {
-            padding: 0 20px;
-            line-height: 30px;
-        }
-
-        /* For About us page */
-
-        #about-us h2 {
-            text-transform: uppercase;
-            padding-bottom: 10px;
-            font-size: 20px;
-        }
-        
-        .about-text {
-            width: 80%;
-            text-align: left;
-            line-height: 20px;
-            clear: both;
-            margin: 20px;
-        }
-        
-        #about-text-center {
-            width: 80%;
-            text-align: left;
-            line-height: 20px;
-            margin: 20px;
-        }
-
-        /* About Us meet the team styling */
-
-        #meet-team {
-            height: 600px;
-            background-color: rgba(236, 236, 236, 0.5);
-        }
-        
-        .about-column {
-            float: left;
-            width: 30%;
-            margin: 5px;
-            padding: 0 0px;
-        }
-        
-        .box {
-            padding: 5px 5px;
-            height: 320px;
-        }
-
-        .box p {
-            font-size: 14px;
-        }
-
-        /* Projects styling */
-
-        .project {
-            padding: 10px;
-            height: 600px;
-            margin: auto;
-        }
-
-    .details > h4 {
+    .details>h4 {
         margin-bottom: 5px;
         font-size: 20px;
     }
 
 }
 
-    /* For tablet screen size 768px and down */
+/* For tablet screen size 768px and down */
 
-    @media screen and (max-width: 768px) {
-
-        /* Index page styling */
-        
-        #nav-menu {
-            font-size: 100%;
-            line-height: 40px;
-        }
-
-        #nav-menu ul li {
-            padding: 0 15px;
-            line-height: 30px;
-        }
-
-        #work-flow {
-            width: 65%;
-            height: 800px;
-            margin: 0 auto;
-        }
-
-        #work-flow h2 {
-            margin-bottom: 10px;
-        }
-
-        #left-work-flow, #right-work-flow {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0%;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            line-height: 20px;
-        }
-
-        #centre-work-flow {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0;
-            line-height: 15px;
-        }
-
-        #summary {
-            font-size: 100%;
-            width: 200px;
-            height: 50px;
-            padding-top: 5px;
-            padding-right: 10px;
-            background-color: rgba(228, 241, 254, 0.5);
-            top: 10px;
-            right: 25px;
-            position: absolute;
-        }
-
-        #summary > h2 {
-            font-size: 15px;
-        }
-
-        #summary > h3 {
-            font-size: 10px;
-        }
-
-        /* About us page styling */
-
-        #about-us {
-            height: 600px;
-        }
-
-        .about-us {
-            clear: both;
-            width: 85%;
-            margin: 0 auto;
-            float: none;
-        }
-
-        #about-us-left, #about-us-right, #about-us-center {
-            width: 80%;
-            margin: 0 auto;
-            float: none;
-        }
-
-        /* Meet the Team page styling */
-
-        #meet-team {
-            height: 2100px;
-        }
-
-        .about-column {
-            clear: both;
-            width: 85%;
-            margin: 0 auto;
-            float: none;
-        }
-
-        .about-team-member {
-            width: 75%;
-            margin: 0 auto;
-            margin-top: 30px;
-            margin-bottom: 10px;
-        }
-
-        /* Projects page styling */
-
-        .project {
-            height: 2100px;
-        }
-
-        .project-column {
-            clear: both;
-            width: 60%;
-            margin: 0 auto;
-            float: none;
-        }
-
-        .details > h4 {
-            margin-bottom: 10px;
-            font-size: 18px;
-        }
-
-        /* Contact page styling */
-
-        #contact-us {
-            float: none;
-            max-width: 400px;
-            margin: 0 auto;
-            clear: both;
-        }
-
-        #find-us {
-            width: 80%;
-            height: auto;
-            margin: 0 auto;
-            margin: 0;
-            clear: both;
-        }
-}
-
-        
-    /* For mobile devices size 480px and down */
-
-    @media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
     /* Index page styling */
 
-        h1, h2, h3 {
-            letter-spacing: 1px;
-        }
+    #nav-menu {
+        font-size: 100%;
+        line-height: 40px;
+    }
 
-        #logo {
-            font-size: 125%;
-            line-height: 40px;
-        }
+    #nav-menu ul li {
+        padding: 0 15px;
+        line-height: 30px;
+    }
 
-        #nav-menu {
-            font-size: 75%;
-            line-height: 40px;
-            margin: 0;
-        }
+    #work-flow {
+        width: 65%;
+        height: 800px;
+        margin: 0 auto;
+    }
 
-        #nav-menu ul li {
-            padding: 0 5px;
-            line-height: 30px;
-        }
+    #work-flow h2 {
+        margin-bottom: 10px;
+    }
 
-        h2 {
-            font-size: 20px;
-        }
+    #left-work-flow,
+    #right-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
 
-        #work-flow {
-            width: 90%;
-            height: 900px;
-            margin: 0 auto;
-        }
+    #centre-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+        line-height: 15px;
+    }
 
-        #left-work-flow, #right-work-flow {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0%;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            line-height: 20px;
-        }
+    #summary {
+        font-size: 100%;
+        width: 200px;
+        height: 50px;
+        padding-top: 5px;
+        padding-right: 10px;
+        background-color: rgba(228, 241, 254, 0.5);
+        top: 10px;
+        right: 25px;
+        position: absolute;
+    }
 
-        #center-work-flow {
-            clear: both;
-            width: 100%;
-            float: left;
-            padding: 0%;
-            line-height: 20px;
-        }
+    #summary>h2 {
+        font-size: 15px;
+    }
 
-        #summary {
-            width: 170px;
-        }
+    #summary>h3 {
+        font-size: 10px;
+    }
 
-        /* About Us page styling */
+    /* About us page styling */
 
-        #about-us {
-            height: 700px;
-        }
+    #about-us {
+        height: 600px;
+    }
 
-        .about-us {
-            clear: both;
-            width: 90%;
-        }
+    .about-us {
+        clear: both;
+        width: 85%;
+        margin: 0 auto;
+        float: none;
+    }
 
-        #about-us-left, #about-us-right, #about-us-center {
-            width: 90%;
-        }
+    #about-us-left,
+    #about-us-right,
+    #about-us-center {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
 
-        #meet-team {
-            height: 1800px;
-        }
+    /* Meet the Team page styling */
 
-        /* Projects page styling */
+    #meet-team {
+        height: 2100px;
+    }
 
-        .project-column {
-            width: 90%;
-        }
+    .about-column {
+        clear: both;
+        width: 85%;
+        margin: 0 auto;
+        float: none;
+    }
 
-        #contact-us {
-            float: none;
-            max-width: 200px;
-            margin: 0 auto;
-            clear: both;
-        }
+    .about-team-member {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
 
-        #find-us {
-            width: 90%;
-            height: auto;
-            margin: 0 auto;
-            margin: 0;
-            clear: both;
-        }
+    /* Projects page styling */
+
+    .project {
+        height: 2100px;
+    }
+
+    .project-column {
+        clear: both;
+        width: 60%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .details>h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    /* Contact page styling */
+
+    #contact-us {
+        float: none;
+        max-width: 400px;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #find-us {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin: 0;
+        clear: both;
+    }
+}
+
+
+/* For mobile devices size 480px and down */
+
+@media screen and (max-width: 480px) {
+
+    /* Index page styling */
+
+    h1,
+    h2,
+    h3 {
+        letter-spacing: 1px;
+    }
+
+    #logo {
+        font-size: 125%;
+        line-height: 40px;
+    }
+
+    #nav-menu {
+        font-size: 75%;
+        line-height: 40px;
+        margin: 0;
+    }
+
+    #nav-menu ul li {
+        padding: 0 5px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #work-flow {
+        width: 90%;
+        height: 900px;
+        margin: 0 auto;
+    }
+
+    #left-work-flow,
+    #right-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+
+    #center-work-flow {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0%;
+        line-height: 20px;
+    }
+
+    #summary {
+        width: 170px;
+    }
+
+    /* About Us page styling */
+
+    #about-us {
+        height: 700px;
+    }
+
+    .about-us {
+        clear: both;
+        width: 90%;
+    }
+
+    #about-us-left,
+    #about-us-right,
+    #about-us-center {
+        width: 90%;
+    }
+
+    #meet-team {
+        height: 1800px;
+    }
+
+    /* Projects page styling */
+
+    .project-column {
+        width: 90%;
+    }
+
+    #contact-us {
+        float: none;
+        max-width: 200px;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #find-us {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin: 0;
+        clear: both;
+    }
 }
