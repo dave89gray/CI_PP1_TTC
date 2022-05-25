@@ -24,8 +24,7 @@ h3 {
 }
 
 #logo {
-    top: 0;
-    left: 0;
+    text-align: center;
     font-size: 200%;
     line-height: 75px;
     background-color: rgba(236, 236, 236, 0.5);
@@ -251,14 +250,14 @@ footer i {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 250px;
     width: 100%;
-    margin: 25px 0px;
+    margin: 25px 10px;
 }
 
 .project-column-right {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 250px;
     width: 100%;
-    margin: 25px 0px;
+    margin: 25px 5px;
 }
 
 .right-side {
@@ -275,17 +274,17 @@ footer i {
     padding: 10px;
 }
 
-.details-text > p {
+.details-text {
+    margin: 5px;
+}
+
+.details-text>p {
     margin-top: 5px;
 }
 
-.details-text > hr {
+.details-text>hr {
     border-top: 1px solid #1b1c1c;
     margin: 5px 5px;
-}
-
-.details-text > h2 {
-    clear: both;
 }
 
 
@@ -595,7 +594,7 @@ textarea {
         height: 350px;
         width: auto;
     }
-    
+
     .project-column-right {
         clear: both;
         height: 350px;
@@ -606,12 +605,13 @@ textarea {
         float: right;
         height: 200px;
     }
+
     .left-side {
         float: left;
         height: 200px;
     }
 
-    .details-text > p {
+    .details-text>p {
         display: inline;
     }
 
@@ -723,37 +723,39 @@ textarea {
 
     /* Projects page styling */
 
-    .project-column {
-        width: 90%;
+    .project-column-left {
+        height: 450px;
+        margin-bottom: 25px;
     }
 
-    /* .project-column-left {
-        clear: both;
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
-    
     .project-column-right {
-        clear: both;
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
+        height: 450px;
+        margin-bottom: 25px;
     }
 
     .right-side {
-        clear: both;
-        width: 60%;
+        width: 90%;
         height: auto;
+        clear: both;
         margin: 0 auto;
+        float: none;
     }
-    
+
     .left-side {
-        clear: both;
-        width: 60%;
+        width: 90%;
         height: auto;
+        clear: both;
         margin: 0 auto;
-    } */
+        float: none;
+    }
+
+    .details-text>h2 {
+        clear: both;
+    }
+
+    .details-text p {
+        margin-top: 10px;
+    }
 
     /* Contact Us styling */
 
