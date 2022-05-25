@@ -78,7 +78,7 @@
     #renewable-image {
         height: 600px;
         width: 100%;
-        background-image: url(../images/Renewable\ Energy\ Image.jpeg);
+        background-image: url(../images/Renewable-Energy-Image.jpeg);
         background-repeat: no-repeat;
         object-fit: contain;
     }
@@ -96,6 +96,10 @@
     }
 
     /* Work Flow section */
+
+    #work-flow {
+        background-color: rgba(236, 236, 236, 0.5);
+    }
 
     #work-flow div {
         height: 250px;
@@ -134,6 +138,7 @@
 
     footer {
         height: 150px;
+        background-color: rgba(236, 236, 236, 0.5);
     }
 
     footer > ul {
@@ -239,7 +244,7 @@
 
     .project {
         padding: 10px;
-        height: 450px;
+        height: 600px;
         margin: auto;
         background-color: rgba(236, 236, 236, 0.5);
     }
@@ -247,6 +252,9 @@
     .project-column {
         float: left;
         width: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+        height: 495px;
     } 
 
     .project::after {
@@ -382,7 +390,6 @@
             margin-bottom: 10px;
             line-height: 20px;
         }
-        
 
         #centre-work-flow {
             clear: both;
@@ -572,7 +579,7 @@
         /* Projects page styling */
 
         .project {
-            height: 1800px;
+            height: 2100px;
         }
 
         .project-column {
@@ -680,7 +687,7 @@
         }
 
         #meet-team {
-            height: 1600px;
+            height: 1800px;
         }
 
         /* Projects page styling */
