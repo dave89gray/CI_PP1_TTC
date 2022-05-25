@@ -116,7 +116,6 @@
     }
 
     #center-work-flow {
-        width: 33%;
         margin: 0 auto;
         padding: 20px 20px;
         line-height: 25px;
@@ -388,7 +387,6 @@
         #centre-work-flow {
             clear: both;
             width: 100%;
-            float: left;
             padding: 0;
             line-height: 20px;
         }
