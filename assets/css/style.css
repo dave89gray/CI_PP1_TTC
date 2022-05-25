@@ -727,6 +727,36 @@ textarea {
         width: 90%;
     }
 
+    .project-column-left {
+        clear: both;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .project-column-right {
+        clear: both;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .right-side {
+        clear: both;
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .left-side {
+        clear: both;
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Contact Us styling */
+
     #contact-us {
         float: none;
         max-width: 200px;
