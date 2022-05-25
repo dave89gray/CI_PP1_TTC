@@ -279,13 +279,13 @@ footer i {
     margin-top: 5px;
 }
 
-.details>hr {
+.details-text > hr {
     border-top: 1px solid #1b1c1c;
     margin: 5px 5px;
 }
 
-.details>h4 {
-    text-align: center;
+.details-text > h2 {
+    clear: both;
 }
 
 
@@ -727,7 +727,7 @@ textarea {
         width: 90%;
     }
 
-    .project-column-left {
+    /* .project-column-left {
         clear: both;
         width: 90%;
         height: auto;
@@ -753,7 +753,7 @@ textarea {
         width: 60%;
         height: auto;
         margin: 0 auto;
-    }
+    } */
 
     /* Contact Us styling */
 
