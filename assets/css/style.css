@@ -68,7 +68,7 @@ h3 {
 /* renewables image*/
 
 #welcome-area {
-    height: 600px;
+    height: auto;
     width: 100%;
     position: relative;
 }
@@ -102,10 +102,6 @@ h3 {
 
 #work-flow {
     background-color: rgba(236, 236, 236, 0.5);
-}
-
-#work-flow div {
-    height: 250px;
 }
 
 #left-work-flow {
@@ -247,26 +243,40 @@ footer i {
 
 .project {
     padding: 10px;
-    height: 600px;
+    height: auto;
     background-color: rgba(236, 236, 236, 0.5);
 }
 
-.project-column {
+.project-column-left {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    height: 200px;
+    height: 250px;
     width: 100%;
-    margin: 10px 0px;
+    margin: 25px 0px;
 }
 
-.project-column > img {
+.project-column-right {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 250px;
+    width: 100%;
+    margin: 25px 0px;
+}
+
+.right-side {
+    float: right;
+    height: 225px;
+    width: auto;
+    padding: 10px;
+}
+
+.left-side {
     float: left;
-    height: 150px;
+    height: 225px;
     width: auto;
     padding: 10px;
 }
 
 .details-text > p {
-    display: inline;
+    margin-top: 5px;
 }
 
 .details>hr {
@@ -276,7 +286,6 @@ footer i {
 
 .details>h4 {
     text-align: center;
-    font-size: 18px;
 }
 
 
@@ -358,13 +367,14 @@ textarea {
 
     #container {
         background-color: rgba(236, 236, 236, 0.5);
-        height: 1200px;
+        height: auto;
     }
 
     #find-us {
         width: 60%;
         margin: 0 auto;
         clear: both;
+        margin-bottom: 25px;
     }
 }
 
@@ -462,7 +472,6 @@ textarea {
 
     .project {
         padding: 10px;
-        height: 600px;
         margin: auto;
     }
 
@@ -581,15 +590,29 @@ textarea {
 
     /* Projects page styling */
 
-    .project {
-        height: 2100px;
+    .project-column-left {
+        clear: both;
+        height: 350px;
+        width: auto;
+    }
+    
+    .project-column-right {
+        clear: both;
+        height: 350px;
+        width: auto;
     }
 
-    .project-column {
-        clear: both;
-        width: 60%;
-        margin: 0 auto;
-        float: none;
+    .right-side {
+        float: right;
+        height: 200px;
+    }
+    .left-side {
+        float: left;
+        height: 200px;
+    }
+
+    .details-text > p {
+        display: inline;
     }
 
     .details>h4 {
