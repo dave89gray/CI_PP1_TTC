@@ -248,31 +248,25 @@ footer i {
 .project {
     padding: 10px;
     height: 600px;
-    margin: auto;
     background-color: rgba(236, 236, 236, 0.5);
 }
 
 .project-column {
-    float: left;
-    width: 25%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
-    height: 495px;
+    height: 200px;
+    width: 100%;
+    margin: 10px 0px;
 }
 
-.project::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.details {
+.project-column > img {
+    float: left;
+    height: 150px;
+    width: auto;
     padding: 10px;
 }
 
-.details>img {
-    width: 100%;
-    height: auto;
+.details-text > p {
+    display: inline;
 }
 
 .details>hr {
