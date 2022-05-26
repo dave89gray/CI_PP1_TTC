@@ -364,7 +364,19 @@ textarea {
     float: none;
 }
 
-/* Media queries*/
+/* 404 error message */
+
+.error-image {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.return-home {
+    display: block;
+
+}
+
+/* Media queries */
 
 /* Media query for contact us google maps */
 
