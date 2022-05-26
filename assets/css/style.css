@@ -367,13 +367,7 @@ textarea {
 /* 404 error message */
 
 .error-image {
-    margin: 0 auto;
-    max-width: 50%;
-}
-
-.return-home {
-    display: block;
-
+    text-transform: uppercase;
 }
 
 /* Media queries */
