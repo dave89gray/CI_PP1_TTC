@@ -797,6 +797,10 @@ textarea {
         float: none;
     }
 
+    #form {
+        margin: 0px;
+    }
+
     #contact-us h2 {
         font-size: 20px;
     }
