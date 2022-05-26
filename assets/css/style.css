@@ -291,13 +291,13 @@ footer i {
 #contact-us {
     width: 100%;
     height: auto;
-    margin: 20px 40px;
+    margin: 20px 20px;
     display: flex;
     justify-content: center;
 }
 
 #form {
-    width: 45%;
+    width: 100%;
     padding-top: 20px;
     margin: 25px 20px 25px 10px;
 }
@@ -329,9 +329,13 @@ textarea {
 }
 
 #contact-details {
-    width: 45%;
+    width: 100%;
     padding-top: 20px;
     margin: 25px 20px 25px 25px;
+}
+
+#contact-details h2 {
+    text-decoration: underline;
 }
 
 #contact-details h3 {
@@ -368,7 +372,7 @@ textarea {
 
     #contact-us {
         float: none;
-        max-width: 500px;
+        max-width: 100%;
         margin: 0 auto;
         clear: both;
     }
@@ -633,18 +637,25 @@ textarea {
     /* Contact page styling */
 
     #contact-us {
-        float: none;
-        max-width: 400px;
+        max-width: 80%;
         margin: 0 auto;
         clear: both;
+        display: block;
     }
 
     #find-us {
         width: 80%;
-        height: auto;
+        height: 200px;
         margin: 0 auto;
-        margin: 0;
         clear: both;
+        display: block;
+    }
+
+    #contact-details {
+        width: 80%;
+        clear: both;
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
 }
 
@@ -769,21 +780,25 @@ textarea {
 
     #contact-us {
         float: none;
-        max-width: 200px;
+        max-width: 90%;
         margin: 0 auto;
         clear: both;
+    }
+
+    #contact-details {
+        width: 80%;
     }
 
     #find-us {
         width: 90%;
-        height: auto;
+        height: 150px;
         margin: 0 auto;
-        margin: 0;
         clear: both;
+        float: none;
     }
 
     #contact-us h2 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .contact-details h2 {
