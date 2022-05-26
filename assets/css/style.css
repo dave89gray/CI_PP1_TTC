@@ -365,8 +365,11 @@ textarea {
 }
 
 /* 404 error message */
+#error-img {
+    max-width: 50%;
+}
 
-.error-image {
+#error-text {
     text-transform: uppercase;
 }
 
