@@ -260,14 +260,14 @@ footer i {
     margin: 25px 5px;
 }
 
-.right-side {
+.right-side-img {
     float: right;
     height: 225px;
     width: auto;
     padding: 10px;
 }
 
-.left-side {
+.left-side-img {
     float: left;
     height: 225px;
     width: auto;
@@ -474,7 +474,7 @@ textarea {
         margin: auto;
     }
 
-    .details>h4 {
+    .details>h2 {
         margin-bottom: 5px;
         font-size: 20px;
     }
@@ -601,12 +601,12 @@ textarea {
         width: auto;
     }
 
-    .right-side {
+    .right-side-img {
         float: right;
         height: 200px;
     }
 
-    .left-side {
+    .left-side-img {
         float: left;
         height: 200px;
     }
@@ -733,20 +733,18 @@ textarea {
         margin-bottom: 25px;
     }
 
-    .right-side {
-        width: 90%;
+    .right-side-img {
+        width: 100%;
         height: auto;
-        clear: both;
-        margin: 0 auto;
         float: none;
+        padding: 0%;
     }
 
-    .left-side {
-        width: 90%;
+    .left-side-img {
+        width: 100%;
         height: auto;
-        clear: both;
-        margin: 0 auto;
         float: none;
+        padding: 0%;
     }
 
     .details-text>h2 {
