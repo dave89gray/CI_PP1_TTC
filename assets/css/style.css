@@ -347,17 +347,17 @@ textarea {
 #find-us {
     position: relative;
     overflow: hidden;
-    width: 75%;
+    max-width: 75%;
     height: 300px;
-    clear: both;
     margin: 0 auto;
+    clear: both;
 }
 
 #find-us iframe {
     position: absolute;
-    top: 10px;
     width: 100%;
-    height: auto;
+    height: 300px;
+    float: none;
 }
 
 /* Media queries*/
