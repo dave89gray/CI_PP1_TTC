@@ -152,7 +152,7 @@ footer i {
 /* add about us styling */
 
 #about-us {
-    height: 300px;
+    height: auto;
 }
 
 #about-us h2 {
@@ -161,6 +161,7 @@ footer i {
 }
 
 #about-us-left {
+    clear: left;
     padding-top: 10px;
     width: 33%;
     float: left;
@@ -196,12 +197,13 @@ footer i {
 /* meet the team styling */
 
 #meet-team {
-    height: 600px;
+    height: auto;
+    clear: both;
 }
 
 #meet-team>h2 {
     text-align: center;
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .about-column {
@@ -282,19 +284,22 @@ footer i {
 /* contact us form styling */
 
 #container {
-    height: 600px;
+    height: auto;
+    width: 100%;
 }
 
 #contact-us {
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: auto;
     margin: 20px 40px;
-    float: right;
+    display: flex;
+    justify-content: center;
 }
 
 #form {
-    width: 90%;
-    padding: 20px;
+    width: 45%;
+    padding-top: 20px;
+    margin: 25px 20px 25px 10px;
 }
 
 input[type=text],
@@ -316,10 +321,25 @@ textarea {
     border: 1px solid #1b1c1c;
     background-color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 #submit:hover {
     background-color: #bfbfbf;
+}
+
+#contact-details {
+    width: 45%;
+    padding-top: 20px;
+    margin: 25px 20px 25px 25px;
+}
+
+#contact-details h3 {
+    margin-top: 10px;
+}
+
+#contact-details p {
+    font-size: 15px;
 }
 
 /* contact us google map styling */
@@ -327,18 +347,17 @@ textarea {
 #find-us {
     position: relative;
     overflow: hidden;
-    width: 50%;
-    padding-bottom: 55%;
-    height: auto;
+    width: 75%;
+    height: 300px;
+    clear: both;
+    margin: 0 auto;
 }
 
 #find-us iframe {
     position: absolute;
     top: 10px;
-    left: 10px;
-    width: 500px;
-    height: 500px;
-    margin: 20px 40px;
+    width: 100%;
+    height: auto;
 }
 
 /* Media queries*/
@@ -385,7 +404,6 @@ textarea {
         width: 100%;
         float: left;
         padding: 0%;
-        margin-top: 10px;
         margin-bottom: 10px;
         line-height: 20px;
     }
@@ -395,6 +413,10 @@ textarea {
         width: 100%;
         padding: 0;
         line-height: 20px;
+    }
+
+    #work-flow h2 {
+        margin: 10px 0px;
     }
 
     hr {
@@ -437,7 +459,7 @@ textarea {
     /* About Us meet the team styling */
 
     #meet-team {
-        height: 600px;
+        height: auto;
     }
 
     .about-column {
@@ -537,7 +559,7 @@ textarea {
     /* About us page styling */
 
     #about-us {
-        height: 600px;
+        height: auto;
     }
 
     .about-us {
@@ -558,7 +580,7 @@ textarea {
     /* Meet the Team page styling */
 
     #meet-team {
-        height: 2100px;
+        height: auto;
     }
 
     .about-column {
@@ -691,7 +713,7 @@ textarea {
     /* About Us page styling */
 
     #about-us {
-        height: 700px;
+        height: auto;
     }
 
     .about-us {
@@ -706,7 +728,7 @@ textarea {
     }
 
     #meet-team {
-        height: 1800px;
+        height: auto;
     }
 
     /* Projects page styling */
@@ -758,5 +780,17 @@ textarea {
         margin: 0 auto;
         margin: 0;
         clear: both;
+    }
+
+    #contact-us h2 {
+        font-size: 15px;
+    }
+
+    .contact-details h2 {
+        font-size: 20px;
+    }
+
+    .contact-details h3 {
+        font-size: 15px;
     }
 }
