@@ -216,3 +216,15 @@ The website contains rour separate pages:
 <img src="docs/features/features_google.png">
 
 - The google maps is embedded into the page so the user can see the location of the office and find us if necessary.
+
+## Validation
+
+### HTML Validation
+The website https://validator.w3.org/ offers the W3C Markup validation Service that was used to validate the HTML of the website. The result was that there were no errors or warnings to be aware of.
+
+<img src="docs/validators/validator_html.png">
+
+### CSS Validation
+The website https://jigsaw.w3.org/css-validator/ offers the W3C Jigsaw CSS validation service that was used to validate the CSS of the website. The result was that there were no errors or warnings to be aware of.
+
+<img src="docs/validators/validator_css.png">
