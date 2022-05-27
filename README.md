@@ -52,7 +52,7 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 
 ## Website Goals
 
-### User Goals
+### User Goals:
 - Finding a consultancy firm that they can feel confidence in and can trust.
 - See the range of skills on offer.
 - Gain a view on basic company work flow.
@@ -60,7 +60,7 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 - A contact form that allows a user to detail an issue and get in contact.
 - Find the contact details and location of the head office.
 
-### Website Owner Goals
+### Website Owner Goals:
 - Increase the number of clients.
 - Showcase the consultancy firm and its employees to build trust.
 - Showcase the different parts of the engineering industry that we work in.
@@ -69,12 +69,12 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 
 ## User Experience
 
-### Target Audience
+### Target Audience:
 - Renewable Energy companies looking for consultants to work on their projects.
 - Oil and Gas companies looking for consultants to work on their projects.
 - Potential consultants looking for a new company to work for.
 
-### User Requirements
+### User Requirements:
 - An easy to use website that can be navigated without thinking.
 - Professional layout that displays information useful to the users needs.
 - Navigation menu links that work as expected.
@@ -85,21 +85,41 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 
 ### User Stories
 
-#### First-time User
+#### First-time User:
  - As a first time user i want to see what projects the business have previously worked on.
  - As a first time user i want to get to know the company principles.
  - As a first time user i want to see some of the employees that work there.
  - As a first time user i want to know where the head office is located.
  - As a first time user i want to be able to submit a form so my issue can maybe be resolved.
 
- #### Returning User
+ #### Returning User:
  - As a returning user i want to find the contact details to call for returning work.
  - As a returning user i want to find the companies social media pages in the footer.
  - As a returning user i want to know who are some of the people that may work on my project.
  - As a returning user i want to find the location of the company through the google maps.
 
- #### Website Owner
+ #### Website Owner:
 - As website owner i want users to gain a perpective of how the company works.
 - As website owner i want users to see what areas of engineering we can help them with.
 - As website owner i want users to see the faces of some of our employees.
 - As website owner i want users to be able to contact us.
+
+## Design
+
+### Design Choices:
+This website was designed with the idea to promote a professional and efficient company that can work in different industries while working to the highest standard.
+There has been box-shading added to two pages, Meet the Team and Projects, so that these stand out.
+
+### Colours:
+The colors chosen were punchy, that stood out in contrast of each other. The background color throughout the website resembles a white chalk that evokes thoughts of whiteboards and chalk, staples of engineering companies while it provides good contrast. The other two colors primarily used resemble steel which is a major part of each industry that we work within. The contrast between these colors with the background color is excellent.
+
+### Fonts:
+Montserrat was used throughout the body of the website, while Roboto was used for the Navigation menu and for the headings. Montserrat lettering is said to have work, dedication, care, color, contrast, light and life, day and night which sounded very much like what T&T Consulting want to be seen as as a company. Roboto is said to have a mechanical skeleton which fitted the engineering while having natural reading rhythm which made it perfect for the heaadings and navigation menu. Sans Serif was used as a fall back should one of these fonts fail in a browser.
+
+### Structure
+The website is laid out in an easy to read, easy to follow manner where the information that we want to present stands out. The index page has an image of a warm evening with renewble energy equipment that is supposed to ellicit a positive feeling from the user. The Navigation menu and Footer are used throughout each page to give the user consistency and a familiar feeling when going through each page.
+The website contains rour separate pages:
+- A home page with a welcoming image and information about comapny work flows.
+- An about us page that details company values and a section that allows to user to get familiar with some of the team.
+- A projects pages that offers insight into the different areas of engineering that we offer.
+- A contact us page that has a contact form, company contact information and a map that allows users to locate the office.
