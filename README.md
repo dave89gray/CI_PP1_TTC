@@ -401,3 +401,35 @@ The website was tested on the following browsers:
 <details>
 <img src="docs/user_story_testing/user_story_testing_8b.png">
 </details>
+
+## Bugs
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Too much padding at the bottom of the Home page between the text and the footer| The height at each media query is changed to "height: auto" |
+| The centre work flow on the Home page was not aligned center | Add the "%" that was missing from the width |
+| The Contact form failed the CSS validator as there were more than one id="region" | Add "aria-labelledby" to differentiate |
+| The Iframe for google maps failed the accessibility as it didnt have a title | Add title |
+| Images and file names had spaces and capital letters | Make all lower case and add "_" |
+| The company moto in the summary box on the Home page overspills its container when viewed on Ipad 4 mini or Mozilla Firefox at certain widths | ? |
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://dave89gray.github.io/CI_PP1_TTC/
+
+You can for fork the repository by following these steps:
+
+Go to the GitHub repository
+Click on Fork button in upper right hand corner
+
+## Credits
+
+### Media
+In order of appearance:
+
+- [renewable_image] (assets/images/renewable_image.jpeg): Photo by <a href="https://cib.bnpparibas/app/uploads/sites/2/cache/2019/08/3044-une/1220557462.jpeg">BNP Paribas</a> at <a href="https://cib.bnpparibas/renewable-energy-good-for-the-environment-and-good-economics/">Renewable energy: good for the environment – and good economics</a>
+- Graeme Lamb (assets/images/ceo-john_ferguson.jpeg): Photo by <a href="https://www.usnews.com/dims4/USNEWS/c0fc9fd/2147483647/crop/418x274%2B0%2B0/resize/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpeg">USNews.com</a> at <a href="https://money.usnews.com/careers/best-jobs/civil-engineer"> USnews.com </a>
+- Angelica Shah (assets/images/engineering_manager_lynne_smith.jpeg): Photo by <a href="https://www.istockphoto.com/portfolio/aquaArtsstudio?mediatype=photography"> aquaArtsstudio</a> on <a href="https://www.istockphoto.com/">istockphoto</a>
+- Harriet Hall (assets/images/engineer-harriet_hall.jpeg): Photo by <a href=""></a> at <a href=""></a>
