@@ -127,19 +127,19 @@ The website contains rour separate pages:
 ### Wireframes
 
 <details>
-<summary></summary>
+<summary>Index</summary>
 <img src="docs/wireframes/wireframe_index.png">
 </details>
 <details>
-<summary></summary>
+<summary>About Us</summary>
 <img src="docs/wireframes/wireframe_about_us.png">
 </details>
 <details>
-<summary></summary>
+<summary>Projects</summary>
 <img src="docs/wireframes/wireframe_projects.png">
 </details>
 <details>
-<summary></summary>
+<summary>Contact Us</summary>
 <img src="docs/wireframes/wireframe_contact_us.png">
 </details>
 
@@ -156,3 +156,24 @@ The website contains rour separate pages:
 - Font Awesome
 - Favicon
 
+## Features
+
+### Features Common to all pages
+
+#### Title:
+<img src="docs/features/features_title.png">
+
+- The title states the name of the company at the top and center of the page.
+- The title serves as a navigation link to the Home page as is standard convention and is expected by the user.
+
+#### Navigation Menu:
+<img src="docs/features/features_navigation_menu.png">
+
+- The navigation menu contains links to the Home, About Us, Projects and Contact Us pages to llow the user to navigate through the website smoothly.
+- The active page that the user is on will be underlined as shown in the image above.
+- The hover over feature has been added which will underline the page link that the user is hovering over while the cursor changes to a pointer.
+
+#### Company Slogan:
+<img src="docs/features/features_summary.png">
+
+- The company slogan has been added just underneath the header so that it is always there for the user to see.
