@@ -333,12 +333,22 @@ The website was tested on the following browsers:
 <img src="docs/user_story_testing/user_story_testing_2.png">
 </details>
 
-3. As a first time user, i want to know what a basic understanding of what would happen if i got in contact.
+3. As a first time user, i want to know more about what the company stands for.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Information | Scroll down on the Home page, locate the various basic work flow | Find the overview of the company work flow | Works as expected |
+| Map | Navigate to the About page and locate the About Us section | Find the three paragraphs stating who the company is and what they strive to achieve | Works as expected |
 
 <details>
-<img src="docs/user_story_testing/user_story_testing_.png">
+<img src="docs/user_story_testing/user_story_testing_3.png">
+</details>
+
+4. As a first time user, i want to get to know some of the people who work there.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the About page and locate the About Us section, scroll to the bottom | Find the Meet the Team blocks that give some background information on them | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_4.png">
 </details>
