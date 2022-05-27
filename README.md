@@ -257,3 +257,42 @@ The website https://wave.webaim.org/ offers the WAVE WebAIM web accessibility ev
 <summary>Contact Us</summary>
 <img src="docs/validators/accessibility_validator_contact_us.png">
 </details>
+
+### Performance
+Google Lighthouse, https://developers.google.com/web/tools/lighthouse, is the google chrome developer tool that was used to test the performance of the website.
+
+<details>
+<summary>Home - Desktop</summary>
+<img src="docs/validators/lighthouse_index_desktop.png">
+</details>
+<details>
+<summary>Home - Mobile</summary>
+<img src="docs/validators/lighthouse_index_mobile.png">
+</details>
+
+<details>
+<summary>About Us - Desktop</summary>
+<img src="docs/validators/lighthouse_about_us_desktop.png">
+</details>
+<details>
+<summary>About Us - Mobile</summary>
+<img src="docs/validators/lighthouse_about_us_mobile.png">
+</details>
+
+<details>
+<summary>Projects - Desktop</summary>
+<img src="docs/validators/lighthouse_projects_desktop.png">
+</details>
+<details>
+<summary>Projects - Mobile</summary>
+<img src="docs/validators/lighthouse_projects_mobile.png">
+</details>
+
+<details>
+<summary>Contact Us - Desktop</summary>
+<img src="docs/validators/lighthouse_contact_us_desktop.png">
+</details>
+<details>
+<summary>Contact Us - Mobile</summary>
+<img src="docs/validators/lighthouse_contact_us_mobile.png">
+</details>
