@@ -222,9 +222,38 @@ The website contains rour separate pages:
 ### HTML Validation
 The website https://validator.w3.org/ offers the W3C Markup validation Service that was used to validate the HTML of the website. The result was that there were no errors or warnings to be aware of.
 
+<details>
+<summary>HTML</summary>
 <img src="docs/validators/validator_html.png">
+</details>
 
 ### CSS Validation
 The website https://jigsaw.w3.org/css-validator/ offers the W3C Jigsaw CSS validation service that was used to validate the CSS of the website. The result was that there were no errors or warnings to be aware of.
 
+<details>
+<summary>style.css</summary>
 <img src="docs/validators/validator_css.png">
+</details>
+
+### Accessibility
+The website https://wave.webaim.org/ offers the WAVE WebAIM web accessibility evaluation tool that was used to evaluate the overall accessiblity of the website and ensure that it met the highest standards. The website passed with 0 errors.
+
+<details>
+<summary>Home</summary>
+<img src="docs/validators/accessibility_validator_index.png">
+</details>
+
+<details>
+<summary>About Us</summary>
+<img src="docs/validators/accessibility_validator_about_us.png">
+</details>
+
+<details>
+<summary>Projects</summary>
+<img src="docs/validators/accessibility_validator_projects.png">
+</details>
+
+<details>
+<summary>Contact Us</summary>
+<img src="docs/validators/accessibility_validator_contact_us.png">
+</details>
