@@ -67,7 +67,7 @@ h3 {
 
 #welcome-area {
     height: auto;
-    width: 100%;
+    width: 150%;
     position: relative;
 }
 
@@ -79,7 +79,7 @@ h3 {
 #renewable-image {
     height: 600px;
     width: 100%;
-    background-image: url(../images/renewable_energy_image.jpeg);
+    background-image: url(../images/renewable_image.jpeg);
     background-repeat: no-repeat;
     object-fit: contain;
 }
@@ -89,10 +89,10 @@ h3 {
     width: 300px;
     height: 80px;
     padding-top: 5px;
-    padding-right: 25px;
+    padding-left: 25px;
     background-color: rgba(228, 241, 254, 0.5);
-    top: 25px;
-    right: 75px;
+    top: 0px;
+    left: 50px;
     position: absolute;
 }
 
