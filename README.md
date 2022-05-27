@@ -22,10 +22,10 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
-    2. [Site Owner Goals](#site-owner-goals)
+    2. [Site Owner Goals](#website-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requrements and Expectations](#user-requrements)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
@@ -66,3 +66,40 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 - Showcase the different parts of the engineering industry that we work in.
 - Offer a way for new and existing customers to contact us through the Contact Form.
 - Provide key contact information.
+
+## User Experience
+
+### Target Audience
+- Renewable Energy companies looking for consultants to work on their projects.
+- Oil and Gas companies looking for consultants to work on their projects.
+- Potential consultants looking for a new company to work for.
+
+### User Requirements
+- An easy to use website that can be navigated without thinking.
+- Professional layout that displays information useful to the users needs.
+- Navigation menu links that work as expected.
+- Social media links in the footer that work as expected.
+- A layout that has no issues with accessibility.
+- A contact form that will submit the information that has been input.
+- Contact information and location details.
+
+### User Stories
+
+#### First-time User
+ - As a first time user i want to see what projects the business have previously worked on.
+ - As a first time user i want to get to know the company principles.
+ - As a first time user i want to see some of the employees that work there.
+ - As a first time user i want to know where the head office is located.
+ - As a first time user i want to be able to submit a form so my issue can maybe be resolved.
+
+ #### Returning User
+ - As a returning user i want to find the contact details to call for returning work.
+ - As a returning user i want to find the companies social media pages in the footer.
+ - As a returning user i want to know who are some of the people that may work on my project.
+ - As a returning user i want to find the location of the company through the google maps.
+
+ #### Website Owner
+- As website owner i want users to gain a perpective of how the company works.
+- As website owner i want users to see what areas of engineering we can help them with.
+- As website owner i want users to see the faces of some of our employees.
+- As website owner i want users to be able to contact us.
