@@ -352,3 +352,52 @@ The website was tested on the following browsers:
 <details>
 <img src="docs/user_story_testing/user_story_testing_4.png">
 </details>
+
+5. As a first time user, i want to get to see a social media account of the company.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to any page, we will use the home page for this, scroll to the very bottom | Find the social media icons in the footer and click on them | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_5a.png">
+</details>
+<details>
+<img src="docs/user_story_testing/user_story_testing_5b.png">
+</details>
+
+6. As a first time user, i want to find the address for the company office and a number to call.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to Contact Us page, locate information on the right | Find the Contct information on the right hand side | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_6.png">
+</details>
+
+7. As a first time user, i want to submit a request for a consultation or detail an issue I have.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to Contact Us page, locate information on the left | Find the Contact form on the left hand side | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_7a.png">
+</details>
+<details>
+<img src="docs/user_story_testing/user_story_testing_7b.png">
+</details>
+
+8. As a first time user, i want to locate the head office building.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to Contact Us page, scroll down, locate information at the bottom | Find the Google Map embedded in the page | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_8a.png">
+</details>
+<details>
+<img src="docs/user_story_testing/user_story_testing_8b.png">
+</details>
