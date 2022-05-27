@@ -173,7 +173,27 @@ The website contains rour separate pages:
 - The active page that the user is on will be underlined as shown in the image above.
 - The hover over feature has been added which will underline the page link that the user is hovering over while the cursor changes to a pointer.
 
+### Features for Index page:
+#### Welcoming Image:
+<img src="docs/features/features_welcome_image.png">
+
+- The index page has an image of a warm evening with renewble energy equipment that is supposed to ellicit a positive and hopeful feeling from the user. With Renewable Energy being at the forefront of decision makers minds, this image is also aiming to show that we have the experience and skills to deal with any requests.
+
 #### Company Slogan:
 <img src="docs/features/features_summary.png">
 
 - The company slogan has been added just underneath the header so that it is always there for the user to see.
+
+<img src="docs/features/features_work_flow.png">
+
+- This section has been added to give an overview of the basic work flow of the company so they have a partial idea of what to expect when we work together.
+
+### Features for About Us page:
+#### Company Values:
+<img src="docs/features/features_company_values.png">
+
+- Company values have been added to this page so it firmly lays out who the company is and what standards that the user can expect from us should we work together.
+
+<img src="docs/features/features_meet_the_team.png">
+
+- Company employees have been shown as this can build familiarity and trust before even starting to work together. The user can put a face to a name and also see the credentials of some of the team.
