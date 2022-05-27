@@ -197,3 +197,22 @@ The website contains rour separate pages:
 <img src="docs/features/features_meet_the_team.png">
 
 - Company employees have been shown as this can build familiarity and trust before even starting to work together. The user can put a face to a name and also see the credentials of some of the team.
+
+### Features for Projects page:
+<img src="docs/features/features_project_1.png">
+<img src="docs/features/features_project_2.png">
+
+- The project section shows the company portfolio of projects and the varying industries that we can offer our expertise on. This is showcasing our skills as a company.
+
+### Features for Contact Us page:
+<img src="docs/features/features_contact_form.png">
+
+- The contact form is a way for the user to leave their details and submit a request for a consultation to see how we can help them solve their issue.
+
+<img src="docs/features/features_contact_info.png">
+
+- This is information about the office including phone number, email address and office address
+
+<img src="docs/features/features_google.png">
+
+- The google maps is embedded into the page so the user can see the location of the office and find us if necessary.
