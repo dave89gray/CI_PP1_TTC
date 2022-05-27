@@ -49,3 +49,20 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+## Website Goals
+
+### User Goals
+- Finding a consultancy firm that they can feel confidence in and can trust.
+- See the range of skills on offer.
+- Gain a view on basic company work flow.
+- View the type of projects that the consultancy can offer work on.
+- A contact form that allows a user to detail an issue and get in contact.
+- Find the contact details and location of the head office.
+
+### Website Owner Goals
+- Increase the number of clients.
+- Showcase the consultancy firm and its employees to build trust.
+- Showcase the different parts of the engineering industry that we work in.
+- Offer a way for new and existing customers to contact us through the Contact Form.
+- Provide key contact information.
