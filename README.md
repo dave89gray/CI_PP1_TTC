@@ -123,3 +123,36 @@ The website contains rour separate pages:
 - An about us page that details company values and a section that allows to user to get familiar with some of the team.
 - A projects pages that offers insight into the different areas of engineering that we offer.
 - A contact us page that has a contact form, company contact information and a map that allows users to locate the office.
+
+### Wireframes
+
+<details>
+<summary></summary>
+<img src="docs/wireframes/wireframe_index.png">
+</details>
+<details>
+<summary></summary>
+<img src="docs/wireframes/wireframe_about_us.png">
+</details>
+<details>
+<summary></summary>
+<img src="docs/wireframes/wireframe_projects.png">
+</details>
+<details>
+<summary></summary>
+<img src="docs/wireframes/wireframe_contact_us.png">
+</details>
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- Balsamiq
+- Google Fonts
+- Font Awesome
+- Favicon
+
