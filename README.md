@@ -259,6 +259,7 @@ The website https://wave.webaim.org/ offers the WAVE WebAIM web accessibility ev
 </details>
 
 ### Performance
+
 Google Lighthouse, https://developers.google.com/web/tools/lighthouse, is the google chrome developer tool that was used to test the performance of the website.
 
 <details>
@@ -296,3 +297,10 @@ Google Lighthouse, https://developers.google.com/web/tools/lighthouse, is the go
 <summary>Contact Us - Mobile</summary>
 <img src="docs/validators/lighthouse_contact_us_mobile.png">
 </details>
+
+### Performing tests on devices
+The website was tested on the below devices:
+- Apple MacBook Pro (15-inch, Mid 2012), macOS Catalina
+- Apple Ipad mini 4, software wersion 15.2.1
+
+In addition to these two devices the website was tested through the Google Chrome Developer Tools toggeling option for various different devices.
