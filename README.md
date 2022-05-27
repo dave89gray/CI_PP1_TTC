@@ -304,3 +304,41 @@ The website was tested on the below devices:
 - Apple Ipad mini 4, software wersion 15.2.1
 
 In addition to these two devices the website was tested through the Google Chrome Developer Tools toggeling option for various different devices.
+
+### Browser compatability
+The website was tested on the following browsers:
+* Google Chrome
+* Mozilla Firefox
+* Safari
+
+### Testing user stories
+
+1. As a first time user, i want to know what services the company can offer me.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation menu | Navigate to the Projects page, locate the various examples of work undertaken | Find the examples of the company portfolio | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_1.png">
+</details>
+
+2. As a first time user, i want to know what a basic understanding of what would happen if i got in contact.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Information | Scroll down on the Home page, locate the various basic work flow | Find the overview of the company work flow | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_2.png">
+</details>
+
+3. As a first time user, i want to know what a basic understanding of what would happen if i got in contact.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Information | Scroll down on the Home page, locate the various basic work flow | Find the overview of the company work flow | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_.png">
+</details>
