@@ -111,7 +111,7 @@ This website was designed with the idea to promote a professional and efficient 
 There has been box-shading added to two pages, Meet the Team and Projects, so that these stand out.
 
 ### Colours:
-The colors chosen were punchy, that stood out in contrast of each other. The background color throughout the website resembles a white chalk that evokes thoughts of whiteboards and chalk, staples of engineering companies while it provides good contrast. The other two colors primarily used resemble steel which is a major part of each industry that we work within. The contrast between these colors with the background color is excellent.
+The colors chosen were punchy and stood out in contrast of each other. The background color throughout the website resembles a white chalk that evokes thoughts of whiteboards and chalk, staples of engineering companies while it provides good contrast. The other two colors primarily used resemble steel which is a major part of each industry that we work within. The contrast between these colors with the background color is excellent.
 
 ### Fonts:
 Montserrat was used throughout the body of the website, while Roboto was used for the Navigation menu and for the headings. Montserrat lettering is said to have work, dedication, care, color, contrast, light and life, day and night which sounded very much like what T&T Consulting want to be seen as as a company. Roboto is said to have a mechanical skeleton which fitted the engineering while having natural reading rhythm which made it perfect for the heaadings and navigation menu. Sans Serif was used as a fall back should one of these fonts fail in a browser.
@@ -426,9 +426,18 @@ Click on Fork button in upper right hand corner
 
 ## Credits
 
+### Code
+In order of appearance:
+- A guide on adding the company slogan on the Index page from [Code Institutes Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
+- A guide on how to set up an About Us page from [W3Schools.](https://www.w3schools.com/howto/howto_css_about_page.asp)
+- A guide on how to set up an About Us page from [W3Schools.](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- Additional guide to setting up media queries on [freecodecamp.](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
+- How to set up 404 page was built following the description on [Github Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+- How to set up the README file following the guide on [CodeTime.](https://www.youtube.com/watch?v=yXY3f9jw7fg)
+
+
 ### Media
 In order of appearance:
-
 - [renewable_image](assets/images/renewable_image.jpeg): Photo by <a href="https://cib.bnpparibas/app/uploads/sites/2/cache/2019/08/3044-une/1220557462.jpeg">BNP Paribas</a> at <a href="https://cib.bnpparibas/renewable-energy-good-for-the-environment-and-good-economics/">Renewable energy: good for the environment – and good economics</a>
 - [ceo-john_ferguson](assets/images/ceo-john_ferguson.jpeg): Photo by <a href="https://www.usnews.com/dims4/USNEWS/c0fc9fd/2147483647/crop/418x274%2B0%2B0/resize/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpeg">USNews.com</a> at <a href="https://money.usnews.com/careers/best-jobs/civil-engineer"> USnews.com </a>
 - [engineering_manager_lynne_smith](assets/images/engineering_manager_lynne_smith.jpeg): Photo by <a href="https://www.istockphoto.com/portfolio/aquaArtsstudio?mediatype=photography"> aquaArtsstudio</a> on <a href="https://www.istockphoto.com/">istockphoto</a>
@@ -437,3 +446,7 @@ In order of appearance:
 - [oil_rig_picture](assets/images/oil_rig_picture.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/noomcpk2528?mediatype=photography">noomcpk2528</a> at <a href="https://www.istockphoto.com/nl/foto/offshore-industrie-olie-en-gas-gm1127111637-296953796">istockphoto</a>
 - [project_management_image](assets/images/project_management_image.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/NicoElNino?mediatype=photography">NicoElNino</a> at <a href="https://www.istockphoto.com/nl/foto/projectmanager-die-aan-gantt-grafiek-werkt-om-de-voortgang-van-de-planning-taken-en-gm1317443847-404872076">istockphoto</a>
 -  (assets/images/.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/SeventyFour?mediatype=photography">SeventyFour</a> at <a href="https://www.istockphoto.com/nl/foto/ingenieurs-plannen-in-fabriek-gm936149030-256079813">istockphoto</a>
+
+## Acknowledgements
+- I would like to thank my mentor Mo Shami for his invaluable guidance, support and expertise. Without that i wouldn't have managed to finish what i have.
+- To the fantastic support network on the Code Institute slack channel. Any time i had a doubt or a question there was someone already speaking about similar issues or had already asked the question.
