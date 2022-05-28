@@ -116,7 +116,7 @@ The colors chosen were punchy, that stood out in contrast of each other. The bac
 ### Fonts:
 Montserrat was used throughout the body of the website, while Roboto was used for the Navigation menu and for the headings. Montserrat lettering is said to have work, dedication, care, color, contrast, light and life, day and night which sounded very much like what T&T Consulting want to be seen as as a company. Roboto is said to have a mechanical skeleton which fitted the engineering while having natural reading rhythm which made it perfect for the heaadings and navigation menu. Sans Serif was used as a fall back should one of these fonts fail in a browser.
 
-### Structure
+### Structure:
 The website is laid out in an easy to read, easy to follow manner where the information that we want to present stands out. The index page has an image of a warm evening with renewble energy equipment that is supposed to ellicit a positive feeling from the user. The Navigation menu and Footer are used throughout each page to give the user consistency and a familiar feeling when going through each page.
 The website contains rour separate pages:
 - A home page with a welcoming image and information about comapny work flows.
@@ -313,7 +313,7 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. As a first time user, i want to know what services the company can offer me.
+1. As a first time user, i want to know what services the company can offer me and in which industry.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -410,7 +410,7 @@ The website was tested on the following browsers:
 | The Contact form failed the CSS validator as there were more than one id="region" | Add "aria-labelledby" to differentiate |
 | The Iframe for google maps failed the accessibility as it didnt have a title | Add title |
 | Images and file names had spaces and capital letters | Make all lower case and add "_" |
-| The company moto in the summary box on the Home page overspills its container when viewed on Ipad 4 mini or Mozilla Firefox at certain widths | ? |
+| The company slogan in the summary box on the Home page overspills its container when viewed on Ipad 4 mini or Mozilla Firefox at certain widths | ? |
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
@@ -429,7 +429,11 @@ Click on Fork button in upper right hand corner
 ### Media
 In order of appearance:
 
-- [renewable_image] (assets/images/renewable_image.jpeg): Photo by <a href="https://cib.bnpparibas/app/uploads/sites/2/cache/2019/08/3044-une/1220557462.jpeg">BNP Paribas</a> at <a href="https://cib.bnpparibas/renewable-energy-good-for-the-environment-and-good-economics/">Renewable energy: good for the environment – and good economics</a>
-- Graeme Lamb (assets/images/ceo-john_ferguson.jpeg): Photo by <a href="https://www.usnews.com/dims4/USNEWS/c0fc9fd/2147483647/crop/418x274%2B0%2B0/resize/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpeg">USNews.com</a> at <a href="https://money.usnews.com/careers/best-jobs/civil-engineer"> USnews.com </a>
-- Angelica Shah (assets/images/engineering_manager_lynne_smith.jpeg): Photo by <a href="https://www.istockphoto.com/portfolio/aquaArtsstudio?mediatype=photography"> aquaArtsstudio</a> on <a href="https://www.istockphoto.com/">istockphoto</a>
-- Harriet Hall (assets/images/engineer-harriet_hall.jpeg): Photo by <a href=""></a> at <a href=""></a>
+- [renewable_image](assets/images/renewable_image.jpeg): Photo by <a href="https://cib.bnpparibas/app/uploads/sites/2/cache/2019/08/3044-une/1220557462.jpeg">BNP Paribas</a> at <a href="https://cib.bnpparibas/renewable-energy-good-for-the-environment-and-good-economics/">Renewable energy: good for the environment – and good economics</a>
+- [ceo-john_ferguson](assets/images/ceo-john_ferguson.jpeg): Photo by <a href="https://www.usnews.com/dims4/USNEWS/c0fc9fd/2147483647/crop/418x274%2B0%2B0/resize/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fc1%2Faae354802f5cc40b6fcd70d056adbc%2Fjobs-job-photo-42.jpeg">USNews.com</a> at <a href="https://money.usnews.com/careers/best-jobs/civil-engineer"> USnews.com </a>
+- [engineering_manager_lynne_smith](assets/images/engineering_manager_lynne_smith.jpeg): Photo by <a href="https://www.istockphoto.com/portfolio/aquaArtsstudio?mediatype=photography"> aquaArtsstudio</a> on <a href="https://www.istockphoto.com/">istockphoto</a>
+- [engineer-harriet_hall](assets/images/engineer-harriet_hall.jpeg): Photo by <a href="https://www.caunceohara.co.uk/tag/womens-engineering-society/">Womens Engineering Society</a> at <a href="https://www.caunceohara.co.uk/women-in-engineering/">Womens Engineering Society</a>
+- [hydrogen_image](assets/images/hydrogen_image.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/audioundwerbung?mediatype=photography">audioundwerbung aachen</a> at <a href="https://www.istockphoto.com/nl/foto/waterstof-hernieuwbare-energie-productie-waterstofgas-voor-schone-elektriciteit-zonne-gm1255388569-367246670">istockphoto</a>
+- [oil_rig_picture](assets/images/oil_rig_picture.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/noomcpk2528?mediatype=photography">noomcpk2528</a> at <a href="https://www.istockphoto.com/nl/foto/offshore-industrie-olie-en-gas-gm1127111637-296953796">istockphoto</a>
+- [project_management_image](assets/images/project_management_image.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/NicoElNino?mediatype=photography">NicoElNino</a> at <a href="https://www.istockphoto.com/nl/foto/projectmanager-die-aan-gantt-grafiek-werkt-om-de-voortgang-van-de-planning-taken-en-gm1317443847-404872076">istockphoto</a>
+-  (assets/images/.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/SeventyFour?mediatype=photography">SeventyFour</a> at <a href="https://www.istockphoto.com/nl/foto/ingenieurs-plannen-in-fabriek-gm936149030-256079813">istockphoto</a>
