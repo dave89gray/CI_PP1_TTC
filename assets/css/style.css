@@ -67,7 +67,7 @@ h3 {
 
 #welcome-area {
     height: auto;
-    width: 150%;
+    width: 100%;
     position: relative;
 }
 
@@ -86,7 +86,7 @@ h3 {
 
 #summary {
     font-size: 100%;
-    width: 300px;
+    width: 340px;
     height: 80px;
     padding-top: 5px;
     padding-left: 25px;
