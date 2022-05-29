@@ -309,7 +309,7 @@ In addition to these two devices the website was tested through the Google Chrom
 The website was tested on the following browsers:
 * Google Chrome
 * Mozilla Firefox
-* Safari
+* Microsoft Edge
 
 ### Testing user stories
 
