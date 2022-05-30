@@ -372,12 +372,8 @@ textarea {
     text-align: center;
 }
 
-#error-image {
-    width: 100%;
-}
-
 #error-text {
-    text-align: center
+    text-align: center;
 }
 
 /* Media queries */
