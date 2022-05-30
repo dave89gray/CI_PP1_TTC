@@ -223,8 +223,23 @@ The website contains rour separate pages:
 The website https://validator.w3.org/ offers the W3C Markup validation Service that was used to validate the HTML of the website. The result was that there were no errors or warnings to be aware of.
 
 <details>
-<summary>HTML</summary>
-<img src="docs/validators/validator_html.png">
+<summary>Index Page</summary>
+<img src="docs/validators/validator_html_index.png">
+</details>
+
+<details>
+<summary>About Us Page</summary>
+<img src="docs/validators/validator_html_about_us.png">
+</details>
+
+<details>
+<summary>Projects Page</summary>
+<img src="docs/validators/validator_html_projects.png">
+</details>
+
+<details>
+<summary>Contact Us Page</summary>
+<img src="docs/validators/validator_html_contact_us.png">
 </details>
 
 ### CSS Validation

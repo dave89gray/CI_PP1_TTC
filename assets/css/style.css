@@ -366,9 +366,15 @@ textarea {
 
 /* 404 error message */
 
+#error-image {
+    max-width: 500px;
+}
+
 #error-text {
     text-transform: uppercase;
+    display: block;
 }
+
 
 /* Media queries */
 
