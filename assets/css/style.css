@@ -375,8 +375,8 @@ textarea {
 }
 
 #error-text {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    float: none;
 }
 
 /* Media queries */
