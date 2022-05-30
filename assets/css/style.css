@@ -369,12 +369,12 @@ textarea {
 #error-page {
     width: 500px;
     height: 500px;
+    text-align: center;
 }
 
 #error-image {
     width: 100%;
     height: auto;
-    text-align: center;
 }
 
 #error-text {
