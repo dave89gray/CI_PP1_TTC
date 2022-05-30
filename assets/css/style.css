@@ -366,14 +366,17 @@ textarea {
 
 /* 404 error message */
 
-.error-page {
+#error-page {
     width: 500px;
     height: 500px;
 }
 
+#error-image {
+    width: 100%;
+    height: auto;
+}
 
-
-.error-text {
+#error-text {
     text-transform: uppercase;
     display: block;
     font-weight: bold;
