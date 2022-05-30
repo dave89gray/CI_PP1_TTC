@@ -376,7 +376,7 @@ textarea {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    clear: both;
+    display: block;
 }
 
 
