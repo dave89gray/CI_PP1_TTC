@@ -372,9 +372,13 @@ textarea {
     text-align: center;
 }
 
+#error-image {
+    text-align: center;
+    clear: both;
+}
+
 #error-text {
     text-align: center;
-    display: block;
 }
 
 /* Media queries */
