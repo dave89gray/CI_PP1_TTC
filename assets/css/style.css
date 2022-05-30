@@ -367,7 +367,13 @@ textarea {
 /* 404 error message */
 
 #error-page {
-    max-width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+#error-image {
+    margin: 0 auto;
+    clear: both;
 }
 
 #error-text {
