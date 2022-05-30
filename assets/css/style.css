@@ -368,13 +368,13 @@ textarea {
 
 #error-page {
     width: 500px;
+    height: 500px;
     text-align: center;
-    clear: both;
 }
 
 #error-text {
-    display: block;
     text-align: center;
+    display: block;
 }
 
 /* Media queries */
