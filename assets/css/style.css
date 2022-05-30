@@ -368,7 +368,7 @@ textarea {
 
 #error-page {
     max-width: 500px;
-    height: auto;
+    max-height: 500px;
 }
 
 #error-image {
