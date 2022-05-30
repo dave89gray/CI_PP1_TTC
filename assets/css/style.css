@@ -366,16 +366,24 @@ textarea {
 
 /* 404 error message */
 
-#error-page {
+/* #error-page {
     width: 500px;
     height: 500px;
     text-align: center;
-}
+} */
 
 #error-text {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+}
+
+#error-page {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Media queries */
