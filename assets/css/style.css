@@ -368,9 +368,10 @@ textarea {
 
 #error-page {
     width: 500px;
-    height: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
     text-align: center;
-    clear: both;
 }
 
 #error-text {
