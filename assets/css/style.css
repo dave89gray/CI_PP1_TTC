@@ -371,12 +371,13 @@ textarea {
     height: auto;
     text-align: center;
 }
+*/
 
 #error-text {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-} */
+}
 
 #error-page {
     width: 500px;
