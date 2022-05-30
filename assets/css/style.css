@@ -366,10 +366,14 @@ textarea {
 
 /* 404 error message */
 
+#error-page-div {
+    justify-items: center center;
+    align-items: center center;
+}
+
 #error-page {
     width: 500px;
     height: 500px;
-    text-align: center;
 }
 
 #error-image {
