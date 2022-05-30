@@ -103,6 +103,7 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 11. As website owner i want users to see what areas of engineering we can help them with.
 12. As website owner i want users to see the faces of some of our employees.
 13. As website owner i want users to be able to contact us.
+14. As website owner i want users to be able to return to the main page should there be an error with their request.
 
 ## Design
 
@@ -194,42 +195,48 @@ The website contains rour separate pages:
 <img src="docs/features/features_work_flow.png">
 
 - This section has been added to give an overview of the basic work flow of the company so they have a partial idea of what to expect when we work together.
-- User story covered: 10
+- User story covered: 10.
 
 ### Features for About Us page:
 #### Company Values:
 <img src="docs/features/features_company_values.png">
 
 - Company values have been added to this page so it firmly lays out who the company is and what standards that the user can expect from us should we work together.
-- User story covered: 2
+- User story covered: 2.
 
 <img src="docs/features/features_meet_the_team.png">
 
 - Company employees have been shown as this can build familiarity and trust before even starting to work together. The user can put a face to a name and also see the credentials of some of the team.
-- User stories covered: 3, 8, 12
+- User stories covered: 3, 8, 12.
 
 ### Features for Projects page:
 <img src="docs/features/features_project_1.png">
 <img src="docs/features/features_project_2.png">
 
 - The project section shows the company portfolio of projects and the varying industries that we can offer our expertise on. This is showcasing our skills as a company.
-- User stories covered: 1, 11
+- User stories covered: 1, 11.
 
 ### Features for Contact Us page:
 <img src="docs/features/features_contact_form.png">
 
 - The contact form is a way for the user to leave their details and submit a request for a consultation to see how we can help them solve their issue.
-- User stories covered: 5, 13
+- User stories covered: 5, 13.
 
 <img src="docs/features/features_contact_info.png">
 
 - This is information about the office including phone number, email address and office address
-- User stories covered: 4, 6, 13
+- User stories covered: 4, 6, 13.
 
 <img src="docs/features/features_google.png">
 
 - The google maps is embedded into the page so the user can see the location of the office and find us if necessary.
-- User stories covered: 4, 9, 13
+- User stories covered: 4, 9, 13.
+
+### Features for 404 Error page page:
+<img src="docs/features/features_404.png">
+
+- This page is to let the user know there has been an error in their request and the aim is to guide them back to the main website without using the browser back button.
+- User stories covered 14.
 
 ## Validation
 
@@ -342,7 +349,8 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
-1. As a first time user, i want to know what services the company can offer me and in which industry.
+1. As a first time user i want to see what projects the business have previously worked on.
+11. As website owner i want users to see what areas of engineering we can help them with.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -352,17 +360,7 @@ The website was tested on the following browsers:
 <img src="docs/user_story_testing/user_story_testing_1.png">
 </details>
 
-2. As a first time user, i want to know what a basic understanding of what would happen if i got in contact.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Information | Scroll down on the Home page, locate the various basic work flow | Find the overview of the company work flow | Works as expected |
-
-<details>
-<img src="docs/user_story_testing/user_story_testing_2.png">
-</details>
-
-3. As a first time user, i want to know more about what the company stands for.
+2. As a first time user i want to get to know the company principles.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -372,7 +370,9 @@ The website was tested on the following browsers:
 <img src="docs/user_story_testing/user_story_testing_3.png">
 </details>
 
-4. As a first time user, i want to get to know some of the people who work there.
+3. As a first time user i want to see some of the employees that work there.
+8. As a returning user i want to know who are some of the people that may work on my project.
+12. As website owner i want users to see the faces of some of our employees.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -382,20 +382,9 @@ The website was tested on the following browsers:
 <img src="docs/user_story_testing/user_story_testing_4.png">
 </details>
 
-5. As a first time user, i want to get to see a social media account of the company.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Map | Navigate to any page, we will use the home page for this, scroll to the very bottom | Find the social media icons in the footer and click on them | Works as expected |
-
-<details>
-<img src="docs/user_story_testing/user_story_testing_5a.png">
-</details>
-<details>
-<img src="docs/user_story_testing/user_story_testing_5b.png">
-</details>
-
-6. As a first time user, i want to find the address for the company office and a number to call.
+ 4. As a first time user i want to know where the head office is located.
+ 6. As a returning user i want to find the contact details to call for returning work.
+13. As website owner i want users to be able to contact us.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -405,7 +394,22 @@ The website was tested on the following browsers:
 <img src="docs/user_story_testing/user_story_testing_6.png">
 </details>
 
-7. As a first time user, i want to submit a request for a consultation or detail an issue I have.
+4. As a first time user i want to know where the head office is located.
+9. As a returning user i want to find the location of the company through the google maps.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to Contact Us page, scroll down, locate information at the bottom | Find the Google Map embedded in the page | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_8a.png">
+</details>
+<details>
+<img src="docs/user_story_testing/user_story_testing_8b.png">
+</details>
+
+5. As a first time user i want to be able to submit a form so my issue can maybe be resolved.
+13. As website owner i want users to be able to contact us.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -418,18 +422,44 @@ The website was tested on the following browsers:
 <img src="docs/user_story_testing/user_story_testing_7b.png">
 </details>
 
-8. As a first time user, i want to locate the head office building.
+ 7. As a returning user i want to find the companies social media pages.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Map | Navigate to Contact Us page, scroll down, locate information at the bottom | Find the Google Map embedded in the page | Works as expected |
+| Map | Navigate to any page, we will use the home page for this, scroll to the very bottom | Find the social media icons in the footer and click on them | Works as expected |
 
 <details>
-<img src="docs/user_story_testing/user_story_testing_8a.png">
+<img src="docs/user_story_testing/user_story_testing_5a.png">
 </details>
 <details>
-<img src="docs/user_story_testing/user_story_testing_8b.png">
+<img src="docs/user_story_testing/user_story_testing_5b.png">
 </details>
+
+10. As website owner i want users to gain a perpective of how the company works.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Information | Scroll down on the Home page, locate the various basic work flow | Find the overview of the company work flow | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_2.png">
+</details>
+
+14. As website owner i want users to be able to return to the main page should there be an error with their request.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Error Request | Click on the link that appears in 404 page | return to home page | Works as expected |
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_14a.png">
+</details>
+
+<details>
+<img src="docs/user_story_testing/user_story_testing_14b.png">
+</details>
+
+
 
 ## Bugs
 | **Bug** | **Fix** |
@@ -474,7 +504,8 @@ In order of appearance:
 - [hydrogen_image](assets/images/hydrogen_image.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/audioundwerbung?mediatype=photography">audioundwerbung aachen</a> at <a href="https://www.istockphoto.com/nl/foto/waterstof-hernieuwbare-energie-productie-waterstofgas-voor-schone-elektriciteit-zonne-gm1255388569-367246670">istockphoto</a>
 - [oil_rig_picture](assets/images/oil_rig_picture.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/noomcpk2528?mediatype=photography">noomcpk2528</a> at <a href="https://www.istockphoto.com/nl/foto/offshore-industrie-olie-en-gas-gm1127111637-296953796">istockphoto</a>
 - [project_management_image](assets/images/project_management_image.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/NicoElNino?mediatype=photography">NicoElNino</a> at <a href="https://www.istockphoto.com/nl/foto/projectmanager-die-aan-gantt-grafiek-werkt-om-de-voortgang-van-de-planning-taken-en-gm1317443847-404872076">istockphoto</a>
--  (assets/images/.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/SeventyFour?mediatype=photography">SeventyFour</a> at <a href="https://www.istockphoto.com/nl/foto/ingenieurs-plannen-in-fabriek-gm936149030-256079813">istockphoto</a>
+-  [inspection_image](assets/images/inspection_image.jpeg): Photo by <a href="https://www.istockphoto.com/nl/portfolio/SeventyFour?mediatype=photography">SeventyFour</a> at <a href="https://www.istockphoto.com/nl/foto/ingenieurs-plannen-in-fabriek-gm936149030-256079813">istockphoto</a>
+-  [404_image](assets/images/404_image.jpg): Photo by <a href="https://www.freepik.com/stories">Storyset</a> at <a href="https://www.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_13315300.htm#query=404&position=2&from_view=keyword">Freepik</a>
 
 ## Acknowledgements
 - I would like to thank my mentor Mo Shami for his invaluable guidance, support and expertise. Without that i wouldn't have managed to finish what i have.
