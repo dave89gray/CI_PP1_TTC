@@ -94,7 +94,7 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 
  #### Returning User:
  6. As a returning user i want to find the contact details to call for returning work.
- 7. As a returning user i want to find the companies social media pages in the footer.
+ 7. As a returning user i want to find the companies social media pages.
  8. As a returning user i want to know who are some of the people that may work on my project.
  9. As a returning user i want to find the location of the company through the google maps.
 
@@ -173,6 +173,13 @@ The website contains rour separate pages:
 - The active page that the user is on will be underlined as shown in the image above.
 - The hover over feature has been added which will underline the page link that the user is hovering over while the cursor changes to a pointer.
 
+#### Footer:
+<img src="docs/features/features_footer.png">
+
+- The footer is featured on each of the four pages.
+- It consists of 4 of the company social media pages, Facebook, Instagram, YouTube and Linkedin.
+- User stories covered: 7
+
 ### Features for Index page:
 #### Welcoming Image:
 <img src="docs/features/features_welcome_image.png">
@@ -217,7 +224,7 @@ The website contains rour separate pages:
 <img src="docs/features/features_contact_info.png">
 
 - This is information about the office including phone number, email address and office address
-- User stories covered: 4, 13
+- User stories covered: 4, 6, 13
 
 <img src="docs/features/features_google.png">
 
