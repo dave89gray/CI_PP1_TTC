@@ -369,14 +369,15 @@ textarea {
 #error-page {
     width: 500px;
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+
+#error-image {
+    width: 100%;
 }
 
 #error-text {
-    position: absolute;
-    float: none;
+    text-align: center
 }
 
 /* Media queries */
