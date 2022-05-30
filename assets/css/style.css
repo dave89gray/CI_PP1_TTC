@@ -370,10 +370,7 @@ textarea {
     width: 500px;
     height: auto;
     text-align: center;
-}
-
-#error-img {
-    width: 100%;
+    clear: both;
 }
 
 #error-text {
