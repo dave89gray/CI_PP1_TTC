@@ -366,19 +366,15 @@ textarea {
 
 /* 404 error message */
 
-#error-page{
+#error-page {
     width: 500px;
     height: 500px;
-    margin: 0 auto;
-}
-
-#error-img {
-    object-position: center;
+    text-align: center;
 }
 
 #error-text {
-    text-align: center;
-    margin: 0 auto;
+    display: block;
+    text-align: center
 }
 
 /* Media queries */
