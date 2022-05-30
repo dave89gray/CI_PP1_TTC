@@ -372,8 +372,7 @@ textarea {
 }
 
 #error-img {
-    height: auto;
-    width: 100%;
+    object-position: 50% 50%;
 }
 
 #error-text {
