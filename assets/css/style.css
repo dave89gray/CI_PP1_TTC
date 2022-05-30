@@ -368,6 +368,7 @@ textarea {
 
 #error {
     position: relative;
+    align-items: center;
 }
 
 #error-page {
