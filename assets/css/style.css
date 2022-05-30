@@ -368,15 +368,12 @@ textarea {
 
 #error-page {
     width: 500px;
-    height: auto;
     display: block;
-    margin: auto;
     text-align: center;
 }
 
 #error-text {
-    text-transform: uppercase;
-    font-weight: bold;
+    display: block;
     text-align: center;
 }
 
