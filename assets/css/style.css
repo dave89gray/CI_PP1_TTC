@@ -374,11 +374,11 @@ textarea {
 #error-image {
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 #error-text {
     text-transform: uppercase;
-    display: block;
     font-weight: bold;
     text-align: center;
 }
