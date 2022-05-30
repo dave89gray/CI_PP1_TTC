@@ -370,14 +370,13 @@ textarea {
     width: 500px;
     height: auto;
     text-align: center;
-    clear: both;
 }
 
 #error-text {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    display: block;
+    clear: both;
 }
 
 
