@@ -368,8 +368,14 @@ textarea {
 
 #error-page {
     width: 500px;
-    height: 500px;
+    height: auto;
     text-align: center;
+}
+
+#error-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 
 #error-text {
@@ -508,6 +514,11 @@ textarea {
     .details>h2 {
         margin-bottom: 5px;
         font-size: 20px;
+    }
+
+    #error-page {
+        width: 400px;
+        height: 400px;
     }
 
 }
@@ -677,7 +688,6 @@ textarea {
     #error-page {
         width: 300px;
         height: 300px;
-        text-align: center;
     }
 }
 
@@ -838,6 +848,5 @@ textarea {
     #error-page {
         width: 200px;
         height: 200px;
-        text-align: center;
     }
 }
