@@ -368,6 +368,7 @@ textarea {
 
 #error-page{
     width: 500px;
+    height: 500px;
     margin: 0 auto;
 }
 
@@ -377,6 +378,7 @@ textarea {
 
 #error-text {
     text-align: center;
+    margin: 0 auto;
 }
 
 /* Media queries */
