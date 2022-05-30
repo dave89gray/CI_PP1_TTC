@@ -368,8 +368,8 @@ textarea {
 
 #error-page {
     width: 500px;
-    display: block;
     text-align: center;
+    clear: both;
 }
 
 #error-text {
