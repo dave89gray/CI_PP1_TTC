@@ -4,7 +4,7 @@ Developer - David Gray
 
 ![mock image](docs/am_i_responsive.png)
 
-[Live webpage] (https://dave89gray.github.io/CI_PP1_TTC/)
+[Live webpage](https://dave89gray.github.io/CI_PP1_TTC/)
 
 Welcome to T&T Consulting. 
 <br>
