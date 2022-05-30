@@ -370,10 +370,12 @@ textarea {
     width: 500px;
     height: 500px;
     text-align: center;
+    position: relative;
 }
 
 #error-text {
-    text-align: center;
+    position: absolute;
+    margin: 0 auto;
 }
 
 /* Media queries */
