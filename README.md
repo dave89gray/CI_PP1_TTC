@@ -86,23 +86,23 @@ Thank you for visiting my project. I am always looking to improve and learn so p
 ### User Stories
 
 #### First-time User:
- - As a first time user i want to see what projects the business have previously worked on.
- - As a first time user i want to get to know the company principles.
- - As a first time user i want to see some of the employees that work there.
- - As a first time user i want to know where the head office is located.
- - As a first time user i want to be able to submit a form so my issue can maybe be resolved.
+ 1. As a first time user i want to see what projects the business have previously worked on.
+ 2. As a first time user i want to get to know the company principles.
+ 3. As a first time user i want to see some of the employees that work there.
+ 4. As a first time user i want to know where the head office is located.
+ 5. As a first time user i want to be able to submit a form so my issue can maybe be resolved.
 
  #### Returning User:
- - As a returning user i want to find the contact details to call for returning work.
- - As a returning user i want to find the companies social media pages in the footer.
- - As a returning user i want to know who are some of the people that may work on my project.
- - As a returning user i want to find the location of the company through the google maps.
+ 6. As a returning user i want to find the contact details to call for returning work.
+ 7. As a returning user i want to find the companies social media pages in the footer.
+ 8. As a returning user i want to know who are some of the people that may work on my project.
+ 9. As a returning user i want to find the location of the company through the google maps.
 
  #### Website Owner:
-- As website owner i want users to gain a perpective of how the company works.
-- As website owner i want users to see what areas of engineering we can help them with.
-- As website owner i want users to see the faces of some of our employees.
-- As website owner i want users to be able to contact us.
+10. As website owner i want users to gain a perpective of how the company works.
+11. As website owner i want users to see what areas of engineering we can help them with.
+12. As website owner i want users to see the faces of some of our employees.
+13. As website owner i want users to be able to contact us.
 
 ## Design
 
@@ -187,35 +187,42 @@ The website contains rour separate pages:
 <img src="docs/features/features_work_flow.png">
 
 - This section has been added to give an overview of the basic work flow of the company so they have a partial idea of what to expect when we work together.
+- User story covered: 10
 
 ### Features for About Us page:
 #### Company Values:
 <img src="docs/features/features_company_values.png">
 
 - Company values have been added to this page so it firmly lays out who the company is and what standards that the user can expect from us should we work together.
+- User story covered: 2
 
 <img src="docs/features/features_meet_the_team.png">
 
 - Company employees have been shown as this can build familiarity and trust before even starting to work together. The user can put a face to a name and also see the credentials of some of the team.
+- User stories covered: 3, 8, 12
 
 ### Features for Projects page:
 <img src="docs/features/features_project_1.png">
 <img src="docs/features/features_project_2.png">
 
 - The project section shows the company portfolio of projects and the varying industries that we can offer our expertise on. This is showcasing our skills as a company.
+- User stories covered: 1, 11
 
 ### Features for Contact Us page:
 <img src="docs/features/features_contact_form.png">
 
 - The contact form is a way for the user to leave their details and submit a request for a consultation to see how we can help them solve their issue.
+- User stories covered: 5, 13
 
 <img src="docs/features/features_contact_info.png">
 
 - This is information about the office including phone number, email address and office address
+- User stories covered: 4, 13
 
 <img src="docs/features/features_google.png">
 
 - The google maps is embedded into the page so the user can see the location of the office and find us if necessary.
+- User stories covered: 4, 9, 13
 
 ## Validation
 
