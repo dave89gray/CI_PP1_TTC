@@ -367,7 +367,7 @@ textarea {
 /* 404 error message */
 
 #error-page {
-    max-width: 100%;
+    max-width: 500px;
     height: auto;
 }
 
@@ -380,6 +380,7 @@ textarea {
     text-transform: uppercase;
     display: block;
     font-weight: bold;
+    text-align: center;
 }
 
 
