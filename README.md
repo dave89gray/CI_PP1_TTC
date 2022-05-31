@@ -263,6 +263,11 @@ The website https://validator.w3.org/ offers the W3C Markup validation Service t
 <img src="docs/validators/validator_html_contact_us.png">
 </details>
 
+<details>
+<summary>404 Error Page</summary>
+<img src="docs/validators/validator_html_404.png">
+</details>
+
 ### CSS Validation
 The website https://jigsaw.w3.org/css-validator/ offers the W3C Jigsaw CSS validation service that was used to validate the CSS of the website. The result was that there were no errors or warnings to be aware of.
 
@@ -292,6 +297,11 @@ The website https://wave.webaim.org/ offers the WAVE WebAIM web accessibility ev
 <details>
 <summary>Contact Us</summary>
 <img src="docs/validators/accessibility_validator_contact_us.png">
+</details>
+
+<details>
+<summary>404 Page</summary>
+<img src="docs/validators/accessibility_validator_404.png">
 </details>
 
 ### Performance
@@ -469,7 +479,7 @@ The website was tested on the following browsers:
 | The Contact form failed the CSS validator as there were more than one id="region" | Add "aria-labelledby" to differentiate |
 | The Iframe for google maps failed the accessibility as it didnt have a title | Add title |
 | Images and file names had spaces and capital letters | Make all lower case and add "_" |
-| The company slogan in the summary box on the Home page overspills its container when viewed on Ipad 4 mini or Mozilla Firefox at certain widths | ? |
+| The company slogan in the summary box on the Home page overspills its container when viewed on Ipad 4 mini or Mozilla Firefox at certain widths | Alter length of box so all text fits |
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
