@@ -373,6 +373,7 @@ textarea {
 
 #error-page > img {
     margin: 0 auto;
+    clear: both;
 }
 
 #error-text {
