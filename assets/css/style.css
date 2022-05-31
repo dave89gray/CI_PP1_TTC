@@ -369,15 +369,18 @@ textarea {
 #error-page {
     width: 500px;
     margin: 0 auto;
-}
-
-#error-page > img {
-    margin: 0 auto;
+    position: relative;
     clear: both;
 }
 
+#error-page > img {
+    width: 100%;
+}
+
 #error-text {
+    position: relative;
     text-align: center;
+    clear: both;
 }
 
 /* Media queries */
@@ -752,7 +755,7 @@ textarea {
     }
 
     #summary {
-        width: 200px;
+        width: 225px;
     }
 
     /* About Us page styling */
