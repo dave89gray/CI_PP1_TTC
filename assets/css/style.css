@@ -366,24 +366,17 @@ textarea {
 
 /* 404 error message */
 
-#error {
-    position: relative;
-    align-items: center;
-}
-
 #error-page {
     width: 500px;
-    height: 500px;
-    background: url('../images/404_image.jpg') no-repeat center center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    display: block;
+}
+
+#error-page > img {
+    margin: 0 auto;
 }
 
 #error-text {
-    margin: 0 auto;
-    position: absolute;
-    left: 50%;
+    text-align: center;
 }
 
 /* Media queries */
