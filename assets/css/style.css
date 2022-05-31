@@ -368,7 +368,7 @@ textarea {
 
 #error-page {
     width: 500px;
-    display: block;
+    margin: 0 auto;
 }
 
 #error-page > img {
@@ -752,7 +752,7 @@ textarea {
     }
 
     #summary {
-        width: 170px;
+        width: 200px;
     }
 
     /* About Us page styling */
